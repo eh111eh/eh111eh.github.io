@@ -44,9 +44,7 @@ Here, $f_r$ is the tangential force and $f_C (=\mu_d*f_n)$ represents the Coulom
 
 **Future Tasks** <br>
 - Build and fully model at least a two-particle system, and simulate it to verify the effectiveness of my force design. Refer to the [Mass-Spring-Damper System Example](https://pydy.readthedocs.io/en/latest/examples/mass-spring-damper.html).
-
 - Once the model proves successful, develop a unit test for the `CoulombFrictionActuator`.
-
 - Make the damping force friction instead of just viscous damping.
 
 ## Hill-Type Muscle Model Implementation
@@ -57,9 +55,6 @@ I implemented a `HillTypeMuscle` class that inherits from a base musculotendon c
 
 **Future Tasks** <br>
 - Add unit tests to ensure the class functions correctly.
-
 - Show and demonstrate the functionality of this muscle model. For an example setup, refer to the [SymPy Biomechanics Tutorial](https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html#a-simple-musculotendon-model).
-
 - Improve documentation for the `HillTypeMuscle` class.
-
 - Develop new curves for the Hill functions. Start by making copies of all the DeGroote2016 classes and then replace them with the corresponding Hill models.
