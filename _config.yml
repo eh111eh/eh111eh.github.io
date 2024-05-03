@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Documentation Page
+title: GSoC Report
 url: "https://eh111eh.github.io"
 baseurl:
 google_analytics_key:
@@ -15,7 +15,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Documentation Page
+  name: GSoC Report
   links:
     - https://github.com/CloudCannon/edition-jekyll-template
 

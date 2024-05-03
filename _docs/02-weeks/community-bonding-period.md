@@ -1,7 +1,7 @@
 ---
 title: Community Bonding Period
 category: Weeks
-order: 1
+order: 2
 ---
 
 Use ChatApp on all of your Android devices. Every version is supported.

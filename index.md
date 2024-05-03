@@ -2,6 +2,11 @@
 title: Welcome
 ---
 
-This is the temporary documentation page for the Duffing Spring, Eardrum, Full Coulomb Friction, Hill-Type Muscle, and Aerodynamic Force Models that I have implemented in the SymPy open source library. Please feel free to contact me for feedback!
+Welcome to the project page for the Google Summer of Code 2024 project: "Implementing Specific Forces and Torques".
 
-> Please find more in [GitHub](https://github.com/sympy/sympy/pulls/eh111eh).
+*Mentors:* Jason Moore, Timo Stienstra
+*Organisation:* SymPy
+
+*Objective:* The aim of this project is to develop a comprehensive library of predefined force and torque models. These models are crucial for a wide range of scenarios in computational physics and engineering simulations. Traditionally, users have had to manually generate various forces and torques, a process that is often complex and error-prone. Our library will streamline this process by including commonly used models such as the Duffing Spring, Coulomb Friction, Hill-Type Muscle, and Aerodynamic Forces. This will greatly enhance the functionality and efficiency of SymPy.
+
+> For more details, visit the [GSoC 2024 Program SymPy Page](https://summerofcode.withgoogle.com/programs/2024/projects/kPT4IkQI).
