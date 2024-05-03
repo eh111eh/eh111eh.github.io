@@ -4,19 +4,19 @@ category: Weeks
 order: 1
 ---
 
-## Events
-### 7 May: GSoC Contributor Summit
+### Events
+- 7 May: GSoC Contributor Summit
 15.00 UTC (2h)
 
-### 23 May: Q&A with Stephanie Taylor
+- 23 May: Q&A with Stephanie Taylor
 15.00 UTC
 
-## Meeting
+### Meeting
 
-## Work
+### Work
 Although the project is officially scheduled to start on May 26, I have already begun and am currently focusing on the three patches I've developed so far. As the project progresses, I will extend my efforts to include additional models like Aerodynamic Forces.
 
-### Duffing Spring Implementation
+- Duffing Spring Implementation
 
 > [Pull Request #26438](https://github.com/sympy/sympy/pull/26438)
 
@@ -30,7 +30,7 @@ Mentors (@tjstienstra, @moorepants) reviewed the implementation and merged it in
 **Future Tasks** <br>
 - Demonstrate the force exerted by a nonlinear spring, based on the Duffing equation, as illustrated in the following example: https://pydy.readthedocs.io/en/latest/examples/mass-spring-damper.html
 
-### The Coulomb Friction Model Implementation
+- The Coulomb Friction Model Implementation
 
 > [Pull Request #26412](https://github.com/sympy/sympy/pull/26412)
 
@@ -47,7 +47,7 @@ Here, $f_r$ is the tangential force and $f_C (=\mu_d*f_n)$ represents the Coulom
 - Once the model proves successful, develop a unit test for the `CoulombFrictionActuator`.
 - Make the damping force friction instead of just viscous damping.
 
-### Hill-Type Muscle Model Implementation
+- Hill-Type Muscle Model Implementation
 
 > [Pull Request #26443](https://github.com/sympy/sympy/pull/26443)
 
