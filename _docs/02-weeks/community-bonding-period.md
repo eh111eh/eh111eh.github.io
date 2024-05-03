@@ -5,10 +5,10 @@ order: 1
 ---
 
 ### Events
-- 7 May: GSoC Contributor Summit
+#### 7 May: GSoC Contributor Summit
 15.00 UTC (2h)
 
-- 23 May: Q&A with Stephanie Taylor
+#### 23 May: Q&A with Stephanie Taylor
 15.00 UTC
 
 ### Meeting
