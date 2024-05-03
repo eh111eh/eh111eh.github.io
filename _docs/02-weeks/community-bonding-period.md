@@ -20,8 +20,13 @@ Although the project is officially scheduled to start on May 26, I have already 
 
 > [Pull Request #26438](https://github.com/sympy/sympy/pull/26438)
 
-I implemented a new class, `DuffingSpring`, to model the force exerted by a nonlinear spring based on the Duffing equation: $$F = -\beta x - \alpha x^3$$
-where $x$ is the displacement from the equilibrium position, $\beta$ is the linear spring constant, and $\alpha$ is the coefficient for the nonlinear cubic term.
+I implemented a new class, `DuffingSpring`, to model the force exerted by a nonlinear spring based on the Duffing equation:
+
+$$
+F = -\beta x - \alpha x^3
+$$
+
+where \( x \) is the displacement from the equilibrium position, \( \beta \) is the linear spring constant, and \( \alpha \) is the coefficient for the nonlinear cubic term.
 
 I also created a unit test to verify that the `DuffingSpring` class functions as expected.
 
