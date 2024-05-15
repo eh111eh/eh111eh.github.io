@@ -1,5 +1,5 @@
 ---
 title: Resources
 category: Documents
-order: 1
+order: 3
 ---
