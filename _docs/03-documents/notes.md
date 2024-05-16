@@ -35,10 +35,10 @@ Further investigation is required to determine the appropriate functions for eac
 
 When simulating the Coulomb friction model at both macro and micro levels, it shows that more research on the model near zero velocity is necessary, as discussed in the meeting with mentors.
 
-![Macro-level Plot](images/coulombmacro.png)
+![Macro-level Plot](eh111eh.github.io/images/coulombmacro.png)
 The phase space plots confirm that the model accurately captures the overall dynamics of the two-particle system. The smooth and stable trajectories indicate that the system behaves as expected, with appropriate damping and friction effects leading to a stable equilibrium.
 
-![Micro-level Plot](images/coulombmicro.png)
+![Micro-level Plot](images/eh111eh.github.io/coulombmicro.png)
 The force-velocity plots highlight potential issues with the model near zero velocity. The presence of outliers and abrupt changes in force values suggests that the friction model may not be handling the transition between static and kinetic friction smoothly.
 This behaviour could lead to inaccuracies in the simulation, especially in scenarios where precise modelling of low-velocity dynamics is critical.
 
@@ -46,6 +46,7 @@ This behaviour could lead to inaccuracies in the simulation, especially in scena
 To mitigate the discontinuity issues at zero velocity and enhance the realism of friction behaviour at low velocities, we can consider integrating the following modifications into the model:
 
 **1. Stribeck Effect:** Modify the Coulomb friction force equation to include a term that reduces as velocity increases from zero. This adjustment allows for a smoother transition from static to dynamic friction.
+![Stribeck](eh111eh.github.io/images/stribeck.png)
 
 **2. Viscous Friction:** Introducing a viscous damping term (α_2*v) adds a velocity-dependent component to the friction force, which is particularly beneficial near zero velocity.
 
