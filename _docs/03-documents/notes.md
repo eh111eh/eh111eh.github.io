@@ -50,4 +50,6 @@ To mitigate the discontinuity issues at zero velocity and enhance the realism of
 
 **2. Viscous Friction:** Introducing a viscous damping term (α_2*v) adds a velocity-dependent component to the friction force, which is particularly beneficial near zero velocity.
 
+**Good to Read:** Paulo Flores, Jorge Ambrósio, Hamid M. Lankarani, “Contact-impact events with friction in mulitbody dynamics: Back to basics”, Mechanism and Machine Theory, vol. 184, 2023. https://doi.org/10.1016/j.mechmachtheory.2023.105305
+
 Further investigation is necessary to fully integrate and test these enhancements.
