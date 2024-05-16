@@ -35,10 +35,10 @@ Further investigation is required to determine the appropriate functions for eac
 
 When simulating the Coulomb friction model at both macro and micro levels, it shows that more research on the model near zero velocity is necessary, as discussed in the meeting with mentors.
 
-![Macro-level Plot](/Users/ganghwayeon/Documents/GitHub/eh111eh.github.io/images/coulombmacro.png)
+<img width="620" alt="coulombmacro" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/43f115cf-3970-4816-8d36-90c3bc784dcb">
 The phase space plots confirm that the model accurately captures the overall dynamics of the two-particle system. The smooth and stable trajectories indicate that the system behaves as expected, with appropriate damping and friction effects leading to a stable equilibrium.
 
-![Micro-level Plot](/Users/ganghwayeon/Documents/GitHub/eh111eh.github.io/images/coulombmicro.png)
+<img width="620" alt="coulombmicro" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/acba7f01-cc61-408d-b0cc-103ff838330d">
 The force-velocity plots highlight potential issues with the model near zero velocity. The presence of outliers and abrupt changes in force values suggests that the friction model may not be handling the transition between static and kinetic friction smoothly.
 This behaviour could lead to inaccuracies in the simulation, especially in scenarios where precise modelling of low-velocity dynamics is critical.
 
@@ -46,7 +46,7 @@ This behaviour could lead to inaccuracies in the simulation, especially in scena
 To mitigate the discontinuity issues at zero velocity and enhance the realism of friction behaviour at low velocities, we can consider integrating the following modifications into the model:
 
 **1. Stribeck Effect:** Modify the Coulomb friction force equation to include a term that reduces as velocity increases from zero. This adjustment allows for a smoother transition from static to dynamic friction.
-![Stribeck](/Users/ganghwayeon/Documents/GitHub/eh111eh.github.io/images/stribeck.png)
+<img width="790" alt="stribeck" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/f16e1779-6b6d-44ef-b157-043ef5dea752">
 
 **2. Viscous Friction:** Introducing a viscous damping term (α_2*v) adds a velocity-dependent component to the friction force, which is particularly beneficial near zero velocity.
 
