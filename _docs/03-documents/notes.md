@@ -35,10 +35,10 @@ Further investigation is required to determine the appropriate functions for eac
 
 When simulating the Coulomb friction model at both macro and micro levels, it shows that more research on the model near zero velocity is necessary, as discussed in the meeting with mentors.
 
-<img width="620" alt="coulombmacro" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/43f115cf-3970-4816-8d36-90c3bc784dcb">
+<img width="620" alt="coulombmacro" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/43f115cf-3970-4816-8d36-90c3bc784dcb"><br/>
 The phase space plots confirm that the model accurately captures the overall dynamics of the two-particle system. The smooth and stable trajectories indicate that the system behaves as expected, with appropriate damping and friction effects leading to a stable equilibrium.
 
-<img width="620" alt="coulombmicro" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/acba7f01-cc61-408d-b0cc-103ff838330d">
+<img width="620" alt="coulombmicro" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/acba7f01-cc61-408d-b0cc-103ff838330d"><br/>
 The force-velocity plots highlight potential issues with the model near zero velocity. The presence of outliers and abrupt changes in force values suggests that the friction model may not be handling the transition between static and kinetic friction smoothly.
 This behaviour could lead to inaccuracies in the simulation, especially in scenarios where precise modelling of low-velocity dynamics is critical.
 
