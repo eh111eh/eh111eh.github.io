@@ -19,7 +19,7 @@ order: 1
 
 - **Tasks and Guidance:**
   1. **Simulating & Adding More Examples:**
-     - Uploaded examples in the GitHub Issue.
+     - Upload examples in the GitHub Issue.
      - Follow the docstring guide which includes mechanical example sources and refer to biomechanics muscle simulation examples.
   2. **Challenges in Simulation:**
      - Simulating current Coulomb friction can be challenging due to its discontinuity and numerical issues with the PieceWise function. Helpful paper: ["Contact-impact events with friction in multibody dynamics: Back to basics", Mechanism and Machine Theory, vol. 184, 2023.](https://doi.org/10.1016/j.mechmachtheory.2023.105305)
