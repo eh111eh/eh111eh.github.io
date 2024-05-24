@@ -35,7 +35,9 @@ Further investigation is required to determine the appropriate functions for eac
 
 I simulated: <br/>
 i. One Particle System
-<img width="743" alt="Screenshot 2024-05-24 at 18 57 14" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/055652a2-e182-4d65-a124-68b789f232e0">
+| Piecewise | Not Piecewise | Including Stribeck |
+|----------|----------|----------|
+| Simulation O, Verification O, Docstring O | Simulation O, Verification O | Simulation O, Verification O |
 
 The Coulomb friction model, implemented as a piecewise function, functions as expected in a single-particle system. When the Stribeck effect is applied, it effectively demonstrates a smoother transition of force near zero velocity.
 
@@ -83,7 +85,9 @@ Similarly, evaluate the force when the velocity is zero and the tangential frict
 ```
 
 ii. Two Particle System
-<img width="743" alt="Screenshot 2024-05-24 at 18 57 23" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/8205fe0c-83ce-47de-861c-ac8ec633c514">
+| Piecewise | Including Stribeck - Simple | Including Stribeck - Complex |
+|----------|----------|----------|
+| Simulation X | Simulation O | Simulation X |
 
 When simulating the dynamics of a two-particle system connected by a spring and a damper, the forces considered include Coulomb friction, spring force, damping force, and external force. This setup models the interactions between two particles, resulting in a complex dynamic system. I use `solve_ivp` to solve the system of ODEs.
 
