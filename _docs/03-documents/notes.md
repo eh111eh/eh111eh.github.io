@@ -40,7 +40,10 @@ i. One Particle System
 | Simulation O, Verification O, Docstring O | Simulation O, Verification O | Simulation O, Verification O |
 
 The Coulomb friction model, implemented as a piecewise function, functions as expected in a single-particle system. When the Stribeck effect is applied, it effectively demonstrates a smoother transition of force near zero velocity.
-(plot photo)
+<p align="center">
+  <img width="411" alt="Screenshot 2024-05-24 at 18 14 40" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/a2fe03b0-1824-4455-beef-a9a622b9c0b9">
+  <img width="318" alt="Screenshot 2024-05-24 at 18 27 35" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/cc07203b-2aa5-4b26-bf7b-9b0c8ff63a15">
+</p>
 
 I am considering including these examples in a docstring within the CoulombFrictionActuator class.
 ```
@@ -86,10 +89,10 @@ ii. Two Particle System
 | Simulation X | Simulation O | Simulation X |
 
 When simulating the dynamics of a two-particle system connected by a spring and a damper, the forces considered include Coulomb friction, spring force, damping force, and external force. This setup models the interactions between two particles, resulting in a complex dynamic system. I use `solve_ivp` to solve the system of ODEs.
-(model architecture photo)
+<img width="723" alt="coulomb two particle piecewise" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/eea22936-c3c9-4eab-9ee3-d8681fd127de">
 
-I am unsure how to interpret these results, but they clearly indicate issues, particularly with the total energy not behaving as expected.
-(plot photo)
+I am unsure how to interpret these results, but they clearly indicate issues, particularly with the total energy not behaving as expected. Including Stribeck effect doesn't really help.
+<img width="670" alt="Screenshot 2024-05-24 at 18 30 57" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/7e8209e1-eade-4e5b-9ccc-4d438303b5df">
 
 **Read:** Paulo Flores, Jorge Ambrósio, Hamid M. Lankarani, “Contact-impact events with friction in mulitbody dynamics: Back to basics”, Mechanism and Machine Theory, vol. 184, 2023. https://doi.org/10.1016/j.mechmachtheory.2023.105305
 
