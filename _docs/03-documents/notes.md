@@ -33,25 +33,64 @@ Further investigation is required to determine the appropriate functions for eac
 ### The Coulomb Friction Model 
 #### Discontinuity & Piecewise Definition in Current Coulomb Friction Model
 
-When simulating the Coulomb friction model at both macro and micro levels, it shows that more research on the model near zero velocity is necessary, as discussed in the meeting with mentors.
+I simulated:
+i. One Particle System
+| Piecewise | Not Piecewise | Including Stribeck |
+|----------|----------|----------|
+| Simulation O, Verification O, Docstring O | Simulation O, Verification O | Simulation O, Verification O |
 
-<img width="620" alt="coulombmacro" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/43f115cf-3970-4816-8d36-90c3bc784dcb">
+The Coulomb friction model, implemented as a piecewise function, functions as expected in a single-particle system. When the Stribeck effect is applied, it effectively demonstrates a smoother transition of force near zero velocity.
+(plot photo)
 
-The phase space plots confirm that the model accurately captures the overall dynamics of the two-particle system. The smooth and stable trajectories indicate that the system behaves as expected, with appropriate damping and friction effects leading to a stable equilibrium.
+I am considering including these examples in a docstring within the CoulombFrictionActuator class.
+```
+Examples
+========
+To model a friction actuator in a physical simulation, we define the parameters
+for kinetic friction, normal force, and velocity:
 
-<img width="620" alt="coulombmicro" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/acba7f01-cc61-408d-b0cc-103ff838330d">
+>>> from sympy import symbols, Piecewise, sign
+>>> from sympy.physics.mechanics import Point, ReferenceFrame
+>>> from sympy.physics.vector import dynamicsymbols
 
-The force-velocity plots highlight potential issues with the model near zero velocity. The presence of outliers and abrupt changes in force values suggests that the friction model may not be handling the transition between static and kinetic friction smoothly.
-This behaviour could lead to inaccuracies in the simulation, especially in scenarios where precise modelling of low-velocity dynamics is critical.
+>>> N = ReferenceFrame('N')
+>>> pA, pB = Point('pA'), Point('pB')
+>>> pA.set_vel(N, 0)
+>>> velocity = dynamicsymbols('v')
+>>> mu_k, F_n, f_r, f_c = symbols('mu_k F_n f_r f_c')
 
-**Discontinuity & Piecewise Definition in Current Coulomb Friction Model**:
-To mitigate the discontinuity issues at zero velocity and enhance the realism of friction behaviour at low velocities, we can consider integrating the following modifications into the model:
+Define the pathway for the actuator:
 
-**1. Stribeck Effect:** Modify the Coulomb friction force equation to include a term that reduces as velocity increases from zero. This adjustment allows for a smoother transition from static to dynamic friction.
-<img width="790" alt="stribeck" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/f16e1779-6b6d-44ef-b157-043ef5dea752">
+>>> pathway = LinearPathway(pA, pB)  # Assuming a linear pathway for simplicity
 
-**2. Viscous Friction:** Introducing a viscous damping term (α_2*v) adds a velocity-dependent component to the friction force, which is particularly beneficial near zero velocity.
+Now, create the CoulombFrictionActuator with these parameters:
 
-**Good to Read:** Paulo Flores, Jorge Ambrósio, Hamid M. Lankarani, “Contact-impact events with friction in mulitbody dynamics: Back to basics”, Mechanism and Machine Theory, vol. 184, 2023. https://doi.org/10.1016/j.mechmachtheory.2023.105305
+>>> friction_actuator = CoulombFrictionActuator(mu_k, F_n, f_r, f_c, velocity, pathway)
 
-Further investigation is necessary to fully integrate and test these enhancements.
+To calculate the force at a specific instance, we can evaluate it based on the given velocity:
+
+>>> friction_force = friction_actuator.force.subs({velocity: -1})
+>>> friction_force.evalf()
+-mu_k*F_n
+
+Similarly, evaluate the force when the velocity is zero and the tangential friction force is less than the Coulomb friction constant:
+
+>>> friction_force_zero = friction_actuator.force.subs({velocity: 0, f_r: 0.5*f_c})
+>>> friction_force_zero.evalf()
+0.5*f_c
+```
+
+ii. Two Particle System
+| Piecewise | Including Stribeck - Simple | Including Stribeck - Complex |
+|----------|----------|----------|
+| Simulation X | Simulation O | Simulation X |
+
+When simulating the dynamics of a two-particle system connected by a spring and a damper, the forces considered include Coulomb friction, spring force, damping force, and external force. This setup models the interactions between two particles, resulting in a complex dynamic system. I use `solve_ivp` to solve the system of ODEs.
+(model architecture photo)
+
+I am unsure how to interpret these results, but they clearly indicate issues, particularly with the total energy not behaving as expected.
+(plot photo)
+
+**Read:** Paulo Flores, Jorge Ambrósio, Hamid M. Lankarani, “Contact-impact events with friction in mulitbody dynamics: Back to basics”, Mechanism and Machine Theory, vol. 184, 2023. https://doi.org/10.1016/j.mechmachtheory.2023.105305
+
+Further investigation is necessary to fully integrate and test the two paricle system.
