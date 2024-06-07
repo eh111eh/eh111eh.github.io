@@ -18,8 +18,6 @@ In relation to [Merged Pull Request #26627](https://github.com/sympy/sympy/pull/
 
 > [Merged Pull Request #26627](https://github.com/sympy/sympy/pull/26627)
 
-<br/>
-
 > [Pull Request #26680](https://github.com/sympy/sympy/pull/26680)
 
 I relocated the tutorial files for biomechanics and created a physics tutorials directory so that we don't have to use redirects to the moved docs. To include these tutorials in the SymPy 1.13 release, **@moorepants** opened PR #26680 against the 1.13 release branch, backporting the changes via `git cherry-pick` to apply the commits from PR #26627 to #26680, whose branch is based off of 1.13. 
