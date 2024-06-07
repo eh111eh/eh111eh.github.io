@@ -55,7 +55,7 @@ Resources:
 
 ### Others
 
-### Full Duffing Oscillation Actuator
+#### Full Duffing Oscillation Actuator
 
 I attempted to implement the full Duffing oscillator, but I found it may not be very practical. This is because when simulating it, I encountered an issue with lambdify not handling derivatives correctly. The error occurs as the SciPyPrinter used within lambdify cannot directly process symbolic derivatives when common subexpression elimination is active. This primarily stems from the way derivatives are managed during the code optimization process, which does not inherently recognise the Derivative type unless it is explicitly supported.
 

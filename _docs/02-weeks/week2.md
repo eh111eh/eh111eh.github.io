@@ -23,11 +23,11 @@ I relocated the tutorial files for biomechanics and created a physics tutorials 
 
 The directory for tutorials is:
 
-doc/src/tutorials/physics/
-├── index.rst
-└── biomechanics/
-    ├── index.rst
-    ├── biomechanics.rst
+doc/src/tutorials/physics/ <br/>
+├── index.rst <br/>
+└── biomechanics/ <br/>
+    ├── index.rst <br/>
+    ├── biomechanics.rst <br/>
     └── biomechanical-model-example.rst
 
 #### Duffing Spring Example
@@ -54,7 +54,7 @@ In further discussions, we talked about the possibility of adding damping and ex
 
 Had a weekly meeting with **@moorepants**, **@tjstienstra**, and **@ricdigi**. There was a technical issue with me failing to join the Zoom meeting, so this should be resolved before the next meeting.
 
-It was a good opportunity to learn about **@ricdigi**'s project, as I was unsure of it before the meeting. His project primarily aims to enhance the performance of SymPy's physics.mechanics and physics.vector modules.
+It was a good opportunity to learn about **@ricdigi**'s project, as I was unsure of it before the meeting. His project primarily aims to enhance the performance of SymPy's `physics.mechanics` and `physics.vector modules`.
 
 ### Others
 
