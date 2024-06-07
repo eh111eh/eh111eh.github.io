@@ -6,9 +6,9 @@ order: 2
 
 ### Issues
 
-#### Duffing Spring Simulation
+#### Duffing Spring Example
 
-> [Pull Request #26625](https://github.com/sympy/sympy/issues/26625)
+> [Issue #26625](https://github.com/sympy/sympy/issues/26625)
 
 I attempted to simulate and verify the functionality of Duffing spring using Jupyter Notebook. Initially, I defined the problem by deriving the equation of motion for the Duffing system. Next, I numerically solved the equation using `solve_ivp` from `scipy.integrate` and visualized the system. The plots include:
 
@@ -59,9 +59,7 @@ Resources:
 
 I attempted to implement the full Duffing oscillator, but I found it may not be very practical. This is because when simulating it, I encountered an issue with lambdify not handling derivatives correctly. The error occurs as the SciPyPrinter used within lambdify cannot directly process symbolic derivatives when common subexpression elimination is active. This primarily stems from the way derivatives are managed during the code optimization process, which does not inherently recognise the Derivative type unless it is explicitly supported.
 
-More on this error: [Issue 26404](https://github.com/sympy/sympy/issues/26404)
-
-I don't want to just delete the code, so I'm leaving it here
+More on this error: [Issue #26404](https://github.com/sympy/sympy/issues/26404)
 
 ```
 class DuffingSpring(ForceActuator):
