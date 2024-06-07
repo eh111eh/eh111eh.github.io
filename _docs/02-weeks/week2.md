@@ -23,12 +23,7 @@ I relocated the tutorial files for biomechanics and created a physics tutorials 
 
 The directory for tutorials is:
 
-doc/src/tutorials/physics/ <br/>
-├── index.rst <br/>
-└── biomechanics/ <br/>
-    ├── index.rst <br/>
-    ├── biomechanics.rst <br/>
-    └── biomechanical-model-example.rst
+<img width="493" alt="tutorial directory" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/2791187f-4c58-4c1b-b82f-7de71fbc7b44">
 
 #### Duffing Spring Example
 
@@ -47,6 +42,8 @@ I double-checked the actuator and found no errors related to the sign. What I in
   - [Learn Multibody Dynamics](https://moorepants.github.io/learn-multibody-dynamics/index.html)
 
 In further discussions, we talked about the possibility of adding damping and external forcing terms to the current Duffing actuator and concluded that it might be better not to add those terms. We decided to present a Duffing oscillator with a suspended pendulum as a simple example for the documentation, so I have studied the relevant paper.
+
+<img width="323" alt="duffing example" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/a9dc4837-b3e4-415e-9c52-c2599f307ccc">
 
 **Reference:** [The dynamics of the pendulum suspended on the forced Duffing oscillator](https://doi.org/10.48550/arXiv.1202.5937)
 
