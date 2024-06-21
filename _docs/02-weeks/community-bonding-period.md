@@ -27,7 +27,6 @@ order: 1
      - Two other students are also working on sympy mechanics. Collaborate with them to help and practice reviewing.
 
 ### Work
-Although the project is officially scheduled to start on May 26, I have already begun and am currently focusing on the three patches I've developed so far. As the project progresses, I will extend my efforts to include additional models like Aerodynamic Forces.
 
 #### Duffing Spring Implementation
 
