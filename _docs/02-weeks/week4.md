@@ -12,7 +12,7 @@ order: 5
 
 > [Merged Pull Request #26641](https://github.com/sympy/sympy/pull/26641)
 
-Available in [Duffing Oscillator with a Pendulum](https://docs.sympy.org/dev/tutorials/physics/mechanics/duffing-example.html).
+Duffing Spring Example has been merged. It is now available in the [Duffing Oscillator with a Pendulum](https://docs.sympy.org/dev/tutorials/physics/mechanics/duffing-example.html).
 
 #### Coulomb Friction
 
