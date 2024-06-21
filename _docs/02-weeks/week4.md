@@ -18,9 +18,14 @@ Available in [Duffing Oscillator with a Pendulum](https://docs.sympy.org/dev/tut
 
 > [Pull Request #26412](https://github.com/sympy/sympy/pull/26412)
 
-Implementing a system of a small block on a rotating disc.
+Implemented a system of a small block on a rotating disc.
 ![image](https://github.com/eh111eh/eh111eh.github.io/assets/97640870/d2719def-c921-4820-9423-57f336067d3c)
 
+#### API Reference Relocation
+
+> [Pull Request #26727](https://github.com/sympy/sympy/pull/26727)
+
+Moved files in the API Reference to the appropriate location (Explanation, Tutorials) as discussed in [Issue #25607](https://github.com/sympy/sympy/issues/25607#issuecomment-2151499993).
 
 ### Meeting
 
