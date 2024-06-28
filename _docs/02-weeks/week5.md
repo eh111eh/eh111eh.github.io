@@ -55,6 +55,7 @@ Exception raised:
 Also, I found that there are other errors in the doctest outside of the `autolev_parser.rst` file. However, these errors do not appear on my local laptop, which makes it a bit confusing to figure out.
 
 Also the doc builds without any issues on my local laptop, so I'm also uncertain why it fails to build the doc.
+<img width="805" alt="Screenshot 2024-06-28 at 18 50 28" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/a1a66faa-b998-4862-882b-d290859a3dac">
 
 ### Meeting
 
