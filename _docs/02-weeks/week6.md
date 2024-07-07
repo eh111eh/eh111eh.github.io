@@ -16,6 +16,8 @@ Representing static friction with SymPy is challenging because SymPy is symbolic
 
 Static friction force is more complex than the current result, so it may be worth switching to kinetic Coulomb friction. I will start by modeling this force as kinetic friction, beginning with model A from [Force, Moment, and Torque¶](https://moorepants.github.io/learn-multibody-dynamics/loads.html#friction), and then extend it to include the Stribeck effect (model B) and further viscous effects (model C).
 
+<img width="797" alt="Screenshot 2024-07-07 at 23 33 37" src="https://github.com/eh111eh/eh111eh.github.io/assets/97640870/13cd688e-ccbb-44a8-80b6-104406f8b84b">
+
 #### API Reference Relocation
 
 > [Merged Pull Request #26727](https://github.com/sympy/sympy/pull/26727)
