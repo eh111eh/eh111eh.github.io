@@ -69,4 +69,5 @@ Suggestions:
   - When working on other people's pull requests, clone the branch and create a new pull request.
 
 ### Others
+
 Riccardo opened an issue: [Issue #26730](https://github.com/sympy/sympy/issues/26730)

@@ -29,9 +29,10 @@ Errors with `biomechanics.rst` and `autolev_parser.rst` have been resolved by up
 
 ### Meeting
 
-Had a weekly meeting with **@moorepants** and **@tjstienstra**. We discussed the mid evaluation and received general feedback on my work so far. The mentors are happy with my progress, and we will pass the mid evaluation. I received the following advice:
+Had a weekly meeting with **@moorepants** and **@tjstienstra** since **@ricdigi** and I joined individually to discuss the midterm evaluation. We discussed the mid evaluation and received general feedback on my work so far. The mentors are happy with my progress, and we will pass the mid evaluation. I received the following advice:
 - When working on Coulomb friction and the hill-type model, it will be helpful to cut the scope to merge the pull request.
 - Focus on a single muscle, figure out how it works, then extend to a larger feature and try my own model.
 
 ### Others
+
 Riccardo created a pull request: [Pull Request #26773 (Draft)](https://github.com/sympy/sympy/pull/26773). I will look into his work and try to help.
