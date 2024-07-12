@@ -4,6 +4,8 @@ category: Work Summary
 order: 1
 ---
 
+Written on Friday, 12 July 2024.
+
 It's hard to believe that I'm already halfway through. Time flies! While not many people—or perhaps nobody—might visit or read this blog, it's good to reflect on what I've done so far, so I'm leaving a quick note here. More details on each task are available in the associated links or weekly posts.
 
 Recently, SymPy 1.13.0 has been released, and it's always exciting to see how my work actually influences the community and enhances the user experience.
