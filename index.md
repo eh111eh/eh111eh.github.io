@@ -5,7 +5,7 @@ title: Welcome
 Welcome to the project page for the Google Summer of Code 2024 project: "Implementing Specific Forces and Torques".
 
 **Contributor:** Hwayeon Kang <br>
-**Mentors:** Jason Moore, Timo Stienstra <br>
+**Mentors:** Jason K. Moore ([@moorepants](https://github.com/moorepants)), Timo Stienstra ([@tjstienstra](https://github.com/tjstienstra)) <br>
 **Organisation:** SymPy <br>
 **Project Size:** Medium (175h)
 
