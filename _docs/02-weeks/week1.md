@@ -61,7 +61,7 @@ I attempted to implement the full Duffing oscillator, but I found it may not be 
 
 More on this error: [Issue #26404](https://github.com/sympy/sympy/issues/26404)
 
-```
+<code>
 class DuffingSpring(ForceActuator):
     """A Duffing spring with force as defined by the Duffing equation.
 
@@ -610,4 +610,4 @@ class TestDuffingSpring:
         expected = ('DuffingSpring(delta, alpha, beta, gamma, omega, x(t), '
                     'LinearPathway(pA, pB))')
         assert repr(duffing_spring) == expected
-```
+</code>
