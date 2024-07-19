@@ -33,3 +33,5 @@ Resource & Paper Reading
 Had a weekly meeting with **@moorepants**, **@tjstienstra**, and **@ricdigi**. We discussed on **Issue #25607** and finalised the new directories for the files, and got feedback on **Pull Request #26641**.
 
 ### Others
+
+N/A
