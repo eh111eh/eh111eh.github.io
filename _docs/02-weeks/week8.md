@@ -35,4 +35,4 @@ Summary:
 
 ### Others
 
-N/A
+I found SymEngine, a standalone fast C++ symbolic manipulation library, interesting. So, I'm considering working on [Implement solvers for SymEngine](https://github.com/sympy/sympy/wiki/GSoC-Ideas#symengine-projects) or [Improve SymPy integration](https://github.com/sympy/sympy/wiki/GSoC-Ideas#symengine-projects) after successfully completing my project during the GSoC coding period.
