@@ -25,21 +25,15 @@ In previous **CoulombKineticFriction** had 7 main problems:
 i. Not enough explanation in the docstring.
 ii. Inconsistency in variable names.
 iii. Variable name of *v_s*.
-iv. Accuracy of sign expression of the calculated force.
-v. The integration freezes when *v_s* is zero.
-vi. Some integration routines fail on the force sign switch (or get bogged down).
-vii. Viscous term has an incorrect sign.
+iv. The integration freezes when *v_s* is zero.
+v. Some integration routines fail on the force sign switch (or get bogged down).
 
 To address these issues:
-    - Updated the docstring with example codes, and relaxed the explanation (solved problem **i**). 
-
-    - Introduced *tanh(self.s_t * v)* instead of *sign(v)*, where *s_t* is a constant for smooth transition (solved problem **vi**, **iv**, and **vii**)
-  
-    - Standardised variable names based on a paper [Rogner2017] (solved problem **ii**)
-  
-    - Changed the variable name *v_s* from the coefficient of the sliding friction to the Stribeck friction coefficient (solved problem **iii**)
-  
-    - Set the default value and added an if loop in the initialiser to ensure the actuator can handle the zero *v_s* case (solved problem **v**).
+    - Updated the docstring with example codes, and relaxed the explanation.
+    - Standardised variable names based on a paper [Rogner2017].
+    - Changed the variable name *v_s* from the coefficient of the sliding friction to the Stribeck friction coefficient.
+    - Set the default value and added an if loop in the initialiser to ensure the actuator can handle the zero *v_s* case.
+    - Add a simple unit test to check if the friction force is zero when the normal force is zero.
 
 I also used two codes, **Code 1** and **Code 2**, to test the actuator.
 **Code 1** checks if the calculated friction force is zero when the normal force is zero and to test different combinations of parameters, including *None* values. Also I tried to simulate with different parameter sets.
