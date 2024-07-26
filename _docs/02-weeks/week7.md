@@ -4,6 +4,8 @@ category: Weeks
 order: 8
 ---
 
+Written on Sunday, 14 July 2024.
+
 ### Issues
 
 N/A

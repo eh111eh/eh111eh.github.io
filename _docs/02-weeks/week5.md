@@ -4,6 +4,8 @@ category: Weeks
 order: 6
 ---
 
+Written on Sunday, 30 June 2024.
+
 ### Issues
 
 N/A

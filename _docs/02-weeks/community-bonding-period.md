@@ -4,6 +4,8 @@ category: Weeks
 order: 1
 ---
 
+Written on Sunday, 26 May 2024.
+
 ### Events
 #### 7 May: GSoC Contributor Summit
 15.00 UTC (2h)

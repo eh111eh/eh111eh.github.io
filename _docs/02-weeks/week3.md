@@ -4,6 +4,8 @@ category: Weeks
 order: 4
 ---
 
+Written on Sunday, 16 June 2024.
+
 ### Issues
 
 #### Move prose style docs of sympy.physics.vector and sympy.physics.mechanics out of "API Reference"

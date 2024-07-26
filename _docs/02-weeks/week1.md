@@ -4,6 +4,8 @@ category: Weeks
 order: 2
 ---
 
+Written on Sunday, 2 June 2024.
+
 ### Issues
 
 #### Duffing Spring Example
