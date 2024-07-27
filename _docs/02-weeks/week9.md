@@ -4,7 +4,7 @@ category: Weeks
 order: 10
 ---
 
-Written on Friday, 26 July 2024, in my fav cafe.
+Written on Saturday, July 27, 2024, with coffee and a matcha cookie in my favorite cafe.
 
 ### Issues
 
@@ -21,19 +21,33 @@ Accordingly, I created new test classes: **TestCoulombKineticFriction2**, and **
 
 After discussing this in a meeting, I decided to focus only on **CoulombKineticFriction** and delet **CoulombKineticFriction2**. If time allows, it would be great to re-review and develop this approach because it covers a wider range of friction cases.
 
-In previous **CoulombKineticFriction** had 7 main problems:
-i. Not enough explanation in the docstring.
-ii. Inconsistency in variable names.
-iii. Variable name of *v_s*.
-iv. The integration freezes when *v_s* is zero.
-v. Some integration routines fail on the force sign switch (or get bogged down).
+The previous **CoulombKineticFriction** had some problems including:
+
+- Not enough explanation in the docstring.
+
+- Inconsistency in variable names.
+
+- Variable name of *v_s*.
+
+- The integration freezes when *v_s* is zero.
+
+- Some integration routines fail on the force sign switch (or get bogged down).
+
+- A sign problem for the viscous and Stribeck terms when the velocity is positive.
 
 To address these issues:
-    - Updated the docstring with example codes, and relaxed the explanation.
-    - Standardised variable names based on a paper [Rogner2017].
-    - Changed the variable name *v_s* from the coefficient of the sliding friction to the Stribeck friction coefficient.
-    - Set the default value and added an if loop in the initialiser to ensure the actuator can handle the zero *v_s* case.
-    - Add a simple unit test to check if the friction force is zero when the normal force is zero.
+
+- Updated the docstring with example codes, and relaxed the explanation.
+
+- Standardised variable names based on a paper [Rogner2017].
+
+- Changed the variable name *v_s* from the coefficient of the sliding friction to the Stribeck friction coefficient.
+    
+- Set the default value and added an if loop in the initialiser to ensure the actuator can handle the zero *v_s* case.
+    
+- Add a simple unit test to check if the friction force is zero when the normal force is zero.
+
+A sign problem for the viscous and Stribeck terms hasn't been resolved yet.
 
 I also used two codes, **Code 1** and **Code 2**, to test the actuator.
 **Code 1** checks if the calculated friction force is zero when the normal force is zero and to test different combinations of parameters, including *None* values. Also I tried to simulate with different parameter sets.
@@ -129,7 +143,7 @@ ax.set_title('Displacement of Mass-Spring System with Different Friction Types')
 plt.show()
 ```
 
-I checked that the friction force is zero when the normal force is zero, and the actuator can handle *None* values correctly. Here's the plot:
+I checked that the friction force is zero when the normal force is zero, and the actuator can handle *None* values correctly.
 
 
 **Code 2** is the one Timo used to see the displacement over time with different types of friction.
@@ -213,8 +227,6 @@ ax.set_ylabel('Displacement (m)')
 ax.legend()
 plt.show()
 ```
-
-Here's the plot:
 
 ### Meeting
 
