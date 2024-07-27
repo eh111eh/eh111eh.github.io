@@ -6,29 +6,11 @@ order: 1
 
 Written on Sunday, 26 May 2024.
 
-### Events
-#### 7 May: GSoC Contributor Summit
-15.00 UTC (2h)
+### Issues
 
-#### 23 May: Q&A with Stephanie Taylor
-15.00 UTC
+N/A
 
-### Meeting
-#### 15 May: Intro Meeting with Mentors
-15.00 CET
-- **Weekly Meeting Schedule:**
-  - Starting from June 5, meetings will be held every Wednesday at 3 PM CET.
-
-- **Tasks and Guidance:**
-  1. **Simulating & Adding More Examples:**
-     - Upload examples in the GitHub Issue.
-     - Follow the docstring guide which includes mechanical example sources and refer to biomechanics muscle simulation examples.
-  2. **Challenges in Simulation:**
-     - Simulating current Coulomb friction can be challenging due to its discontinuity and numerical issues with the PieceWise function. Helpful paper: ["Contact-impact events with friction in multibody dynamics: Back to basics", Mechanism and Machine Theory, vol. 184, 2023.](https://doi.org/10.1016/j.mechmachtheory.2023.105305)
-  3. **Collaboration and Peer Review:**
-     - Two other students are also working on sympy mechanics. Collaborate with them to help and practice reviewing.
-
-### Work
+### Pull Requests
 
 #### Duffing Spring Implementation
 
@@ -65,3 +47,25 @@ I implemented a `HillTypeMuscle` class that inherits from a base musculotendon c
 - Show and demonstrate the functionality of this muscle model. For an example setup, refer to the [SymPy Biomechanics Tutorial](https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html#a-simple-musculotendon-model).
 - Improve documentation for the `HillTypeMuscle` class.
 - Develop new curves for the Hill functions. Start by making copies of all the DeGroote2016 classes and then replace them with the corresponding Hill models.
+
+### Meeting
+
+- Weekly Meeting Schedule:
+  - Starting from June 5, meetings will be held every Wednesday at 3 PM CET.
+
+- Tasks and Guidance:
+  1. Simulating & Adding More Examples:
+     - Upload examples in the GitHub Issue.
+     - Follow the docstring guide which includes mechanical example sources and refer to biomechanics muscle simulation examples.
+  2. Challenges in Simulation:
+     - Simulating current Coulomb friction can be challenging due to its discontinuity and numerical issues with the PieceWise function. Helpful paper: ["Contact-impact events with friction in multibody dynamics: Back to basics", Mechanism and Machine Theory, vol. 184, 2023.](https://doi.org/10.1016/j.mechmachtheory.2023.105305)
+  3. Collaboration and Peer Review:
+     - Two other students are also working on sympy mechanics. Collaborate with them to help and practice reviewing.
+
+### Others
+
+#### (Event) 7 May: GSoC Contributor Summit
+15.00 UTC (2h)
+
+#### (Event) 23 May: Q&A with Stephanie Taylor
+15.00 UTC

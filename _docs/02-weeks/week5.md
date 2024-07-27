@@ -63,9 +63,9 @@ Also the doc builds without any issues on my local laptop, so I'm also uncertain
 
 ### Meeting
 
-On 25 June 2024, I had a code style meeting with **@tjstienstra**. We established a separate Sympy development environment (*sympy-dev*), discussed ways to enhance code style, and reviewed the Coulomb friction test class, the four-bar linkage example, a [relevant thesis](http://dx.doi.org/10.59490/660179a06bf1082286458109), and the [rolling disc model](https://mechmotum.github.io/brim/tutorials/rolling_disc_from_scratch.html).
+On 25 June 2024, I had a code style meeting with **[@tjstienstra](https://github.com/tjstienstra)**. We established a separate Sympy development environment (*sympy-dev*), discussed ways to enhance code style, and reviewed the Coulomb friction test class, the four-bar linkage example, a [relevant thesis](http://dx.doi.org/10.59490/660179a06bf1082286458109), and the [rolling disc model](https://mechmotum.github.io/brim/tutorials/rolling_disc_from_scratch.html).
 
-Also had a weekly meeting with **@moorepants**, **@tjstienstra**, and **@ricdigi**. We discussed **Pull Request #26412** mainly.
+Also had a weekly meeting with Jason K. Moore ([@moorepants](https://github.com/moorepants)), Timo Stienstra ([@tjstienstra](https://github.com/tjstienstra)), and Riccardo Di Girolamo ([@ricdigi](https://github.com/ricdigi)). We discussed **Pull Request #26412** mainly.
 Suggestions:
   - Create a separate Python script, execute the example, plot the results, and include it in the test class for easier development.
   - Improve the pathway so that we can define two points sliding through it.

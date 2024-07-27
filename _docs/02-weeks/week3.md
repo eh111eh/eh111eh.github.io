@@ -32,7 +32,7 @@ Resource & Paper Reading
 
 ### Meeting
 
-Had a weekly meeting with **@moorepants**, **@tjstienstra**, and **@ricdigi**. We discussed on **Issue #25607** and finalised the new directories for the files, and got feedback on **Pull Request #26641**.
+Had a weekly meeting with Jason K. Moore ([@moorepants](https://github.com/moorepants)), Timo Stienstra ([@tjstienstra](https://github.com/tjstienstra)), and Riccardo Di Girolamo ([@ricdigi](https://github.com/ricdigi)). We discussed on **Issue #25607** and finalised the new directories for the files, and got feedback on **Pull Request #26641**.
 
 ### Others
 

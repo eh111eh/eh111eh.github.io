@@ -33,7 +33,7 @@ Errors with `biomechanics.rst` and `autolev_parser.rst` have been resolved by up
 
 ### Meeting
 
-Had a weekly meeting with **@moorepants** and **@tjstienstra** since **@ricdigi** and I joined individually to discuss the midterm evaluation. We discussed the mid evaluation and received general feedback on my work so far. The mentors are happy with my progress, and we will pass the mid evaluation. I received the following advice:
+Had a weekly meeting with Jason K. Moore ([@moorepants](https://github.com/moorepants)) and Timo Stienstra ([@tjstienstra](https://github.com/tjstienstra)) since Riccardo ([@ricdigi](https://github.com/ricdigi)) and I joined individually to discuss the midterm evaluation. We discussed the mid evaluation and received general feedback on my work so far. The mentors are happy with my progress, and we will pass the mid evaluation. I received the following advice:
 - When working on Coulomb friction and the hill-type model, it will be helpful to cut the scope to merge the pull request.
 - Focus on a single muscle, figure out how it works, then extend to a larger feature and try my own model.
 

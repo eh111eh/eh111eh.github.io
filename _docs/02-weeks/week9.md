@@ -52,7 +52,7 @@ A sign problem for the viscous and Stribeck terms hasn't been resolved yet.
 I also used two codes, **Code 1** and **Code 2**, to test the actuator.
 **Code 1** checks if the calculated friction force is zero when the normal force is zero and to test different combinations of parameters, including *None* values. Also I tried to simulate with different parameter sets.
 
-```
+```python
 import sympy as sm
 import numpy as np
 import matplotlib.pyplot as plt
@@ -148,7 +148,7 @@ I checked that the friction force is zero when the normal force is zero, and the
 
 **Code 2** is the one Timo used to see the displacement over time with different types of friction.
 
-```
+```python
 import sympy as sm
 import numpy as np
 import matplotlib.pyplot as plt
@@ -230,7 +230,7 @@ plt.show()
 
 ### Meeting
 
-Had a weekly meeting with **@tjstienstra**, **@moorepants**, and **@ricdigi**.
+Had a weekly meeting with Jason K. Moore ([@moorepants](https://github.com/moorepants)), Timo Stienstra ([@tjstienstra](https://github.com/tjstienstra)), and Riccardo Di Girolamo ([@ricdigi](https://github.com/ricdigi)).
 
 Summary:
 - **CoulombKineticFriction**
@@ -247,7 +247,7 @@ Summary:
 
 I add **CoulombKineticFriction2** here for later use. The point in this actuator is to handle the vector component and direction of the calculated force, specifically ensuring the force is perpendicular to the normal force.
 
-```
+```python
 class CoulombKineticFriction2(ForceActuator):
     """Coulomb kinetic friction with Stribeck effect.
 

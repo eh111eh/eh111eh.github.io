@@ -26,7 +26,7 @@ I currently have some errors and issues, but I aim to present the numerical simu
 
 ### Meeting
 
-Had a weekly meeting with **@tjstienstra**, **@moorepants**, and **@ricdigi**.
+Had a weekly meeting with Jason K. Moore ([@moorepants](https://github.com/moorepants)), Timo Stienstra ([@tjstienstra](https://github.com/tjstienstra)), and Riccardo Di Girolamo ([@ricdigi](https://github.com/ricdigi)).
 
 Summary:
 - Unique commit name

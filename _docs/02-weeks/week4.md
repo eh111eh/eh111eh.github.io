@@ -33,7 +33,7 @@ Moved files in the API Reference to the appropriate location (Explanation, Tutor
 
 ### Meeting
 
-Had a weekly meeting with **@moorepants**, **@tjstienstra**, and **@ricdigi**. We discussed **Pull Request #26412**. **@tjstienstra** suggested reviewing some topics regarding code style. Further discussion will take place next Tuesday during our meeting.
+Had a weekly meeting with Jason K. Moore ([@moorepants](https://github.com/moorepants)), Timo Stienstra ([@tjstienstra](https://github.com/tjstienstra)), and Riccardo Di Girolamo ([@ricdigi](https://github.com/ricdigi)). We discussed **Pull Request #26412**. **@tjstienstra** suggested reviewing some topics regarding code style. Further discussion will take place next Tuesday during our meeting.
 
 ### Others
 

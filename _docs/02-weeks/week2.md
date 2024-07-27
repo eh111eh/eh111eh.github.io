@@ -54,7 +54,7 @@ In further discussions, we talked about the possibility of adding damping and ex
 
 ### Meeting
 
-Had a weekly meeting with **@moorepants**, **@tjstienstra**, and **@ricdigi** (He's another SymPy contributor in GSoC). There was a technical issue with me failing to join the Zoom meeting, so this should be resolved before the next meeting.
+Had a weekly meeting with Jason K. Moore ([@moorepants](https://github.com/moorepants)), Timo Stienstra ([@tjstienstra](https://github.com/tjstienstra)), and Riccardo Di Girolamo ([@ricdigi](https://github.com/ricdigi)). Riccardo is another SymPy contributor in GSoC. There was a technical issue with me failing to join the Zoom meeting, so this should be resolved before the next meeting.
 
 It was a good opportunity to learn about **@ricdigi**'s project, as I was unsure of it before the meeting. His project primarily aims to enhance the performance of SymPy's `physics.mechanics` and `physics.vector modules`.
 
