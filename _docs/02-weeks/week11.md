@@ -108,6 +108,8 @@ This PR has finally been merged!
 
 I opened a draft PR to add a system of a block on a rotating disc to the tutorial documentation. In this system, the block is located at a distance r from the center of the disc and is subjected to forces, including friction force with additional Stribeck and viscous effects.
 
+<img width="589" alt="block-disc" src="https://github.com/user-attachments/assets/86f865c7-4f78-4085-abea-65ed1abb69ea">
+
 #### Fix bicycle example
 
 > [Merged Pull Request #26921](https://github.com/sympy/sympy/pull/26921)
