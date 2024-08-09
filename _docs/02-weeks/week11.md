@@ -14,8 +14,8 @@ Written on Friday, Aug 9, 2024.
 
 I opened this issue to make sure I understand the system I'll simulate before officially opening a new PR and to discuss some points that are unclear to me.
 
-At this point, as described in this issue and the draft PR #26936, there are two main issues:
-    - Incomplete CustomPathway.
+At this point, as described in this issue and the draft PR #26936, there are two main issues:<br>
+    - Incomplete CustomPathway.<br>
     - Accurate calculation of the acceleration of point P.
 
 Especially for the CustomPathway, I've worked to create a custom pathway that calculates the arc length as the pathway length, the time derivative of the arc length as the extension_velocity, and the inertial force as the to_loads product. So like:
