@@ -10,7 +10,7 @@ Written on Friday, Aug 9, 2024.
 
 #### Simulation of a sliding block on a rotating disc
 
-[Issue #26929: Simulation of a sliding block on a rotating disc](https://github.com/sympy/sympy/issues/26929)
+> [Issue #26929: Simulation of a sliding block on a rotating disc](https://github.com/sympy/sympy/issues/26929)
 
 I opened this issue to make sure I understand the system I'll simulate before officially opening a new PR and to discuss some points that are unclear to me.
 
@@ -88,7 +88,7 @@ But I'm unsure about this approach because, in case of a ball on a rotating disc
 
 #### Biomechanics docs redirects not present
 
-[Issue #26917: Biomechanics docs redirects not present](https://github.com/sympy/sympy/issues/26917)
+> [Issue #26917: Biomechanics docs redirects not present](https://github.com/sympy/sympy/issues/26917)
 
 Jason opened this issue since https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html and https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html directed to a "Page Not Found" error.
 
@@ -140,11 +140,11 @@ We discussed on two issues mainly:
 
 TBA
 
-- [csu-hmc/opty Pull Request #196: Plot ball running on spinning disc](https://github.com/csu-hmc/opty/pull/196)
+> [csu-hmc/opty Pull Request #196: Plot ball running on spinning disc](https://github.com/csu-hmc/opty/pull/196)
 
-- [youtube video - The Turntable Paradox](https://www.youtube.com/embed/3oM7hX3UUEU?si=Q-rs1nOmikPbSBgZ)
-    - Indeed very interesting.
+> [youtube video - The Turntable Paradox](https://www.youtube.com/embed/3oM7hX3UUEU?si=Q-rs1nOmikPbSBgZ)
+- Indeed very interesting.
 
-- [four bar linkage tutorial - visualisation](https://mechmotum.github.io/brim/tutorials/four_bar_linkage.html#Visualization)
+> [four bar linkage tutorial - visualisation](https://mechmotum.github.io/brim/tutorials/four_bar_linkage.html#Visualization)
 
-- [learn-multibody-dynamics - animation with matplotlib](https://moorepants.github.io/learn-multibody-dynamics/simulation.html#animation-with-matplotlib)
+> [learn-multibody-dynamics - animation with matplotlib](https://moorepants.github.io/learn-multibody-dynamics/simulation.html#animation-with-matplotlib)
