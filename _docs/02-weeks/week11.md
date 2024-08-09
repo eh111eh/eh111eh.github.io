@@ -90,7 +90,7 @@ But I'm unsure about this approach because, in case of a ball on a rotating disc
 
 > [Issue #26917: Biomechanics docs redirects not present](https://github.com/sympy/sympy/issues/26917)
 
-Jason opened this issue since https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html and https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html directed to a "Page Not Found" error.
+Jason opened this issue since [biomechanics tutorial](https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html) and [biomechanical-model-example docs](https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html) directed to a "Page Not Found" error.
 
 The purpose of the redirect is to ensure URL stability between the released version of SymPy and the current development. Since SymPy 1.12 no longer exists but SymPy 1.13 does, adjusting the redirect might not be necessary. I'll double check the URL stability.
 
