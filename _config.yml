@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Hwayeon GSoC 2024 Blog
+title: Hwayeon GSoC blog
 url: "https://eh111eh.github.io"
 baseurl:
 google_analytics_key:
@@ -13,9 +13,9 @@ description: Google Summer of Code 2024 Project "Implementing Specific Forces an
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter:
 social:
-  name: Hwayeon GSoC 2024 Blog
+  name: Hwayeon GSoC blog
   links:
     - https://github.com/CloudCannon/edition-jekyll-template
 
