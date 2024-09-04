@@ -27,24 +27,22 @@ const Blog = () => {
   return (
     <>
       <div className="container blog-page">
-          <div className="wrapper" data-wrapper-type="inner">
-            <div className="repel">
-              <div className="headline__meta cluster">
-                <h1 className="page-title">
-                  <AnimatedLetters
-                    letterClass={letterClass}
-                    strArray={'Blog Posts'.split("")}
-                    idx={10}
-                  />
-                </h1>
-              </div>
-              <div className="page-intro">
-                <p>
-                  Welcome to the blog page. All posts are in chronological order.
-                </p>
-              </div>
+        <div className="wrapper" data-wrapper-type="inner">
+          <div className="repel">
+            <div className="headline__meta cluster">
+              <h1 className="page-title">
+                <AnimatedLetters
+                  letterClass={letterClass}
+                  strArray={'Blog Posts'.split('')}
+                  idx={10}
+                />
+              </h1>
+            </div>
+            <div className="page-intro">
+              <p>Welcome to the blog page. All posts are in chronological order.</p>
             </div>
           </div>
+        </div>
         <div className="post-list">
           <div className="wrapper">
             <ol>
@@ -53,12 +51,13 @@ const Blog = () => {
                   <div className="post post--newsletter" data-post-variant="newsletter">
                     <div className="post__content cluster">
                       <h2 className="post__heading">
-                        <a href={post.link}>{post.title}</a>
+                        {/* Use Link component for smooth navigation */}
+                        <Link to={post.link} onClick={() => window.scrollTo(0, 0)}>
+                          {post.title}
+                        </Link> {/* Correct internal link */}
                       </h2>
                       <p>
-                        <time dateTime={new Date(post.date).toISOString()}>
-                          {post.date}
-                        </time>
+                        <time dateTime={new Date(post.date).toISOString()}>{post.date}</time>
                       </p>
                     </div>
                   </div>
