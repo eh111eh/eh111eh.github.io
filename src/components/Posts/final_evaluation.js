@@ -1,7 +1,7 @@
 import React from 'react';
 import './posts.scss';
 
-const FinalEvaluation = () => {
+const Finalevaluation = () => {
   return (
     <div className="evaluation-container">
       <h1>Final Evaluation</h1>
@@ -77,4 +77,4 @@ const FinalEvaluation = () => {
   );
 };
 
-export default FinalEvaluation;
+export default Finalevaluation;
