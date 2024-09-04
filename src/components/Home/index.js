@@ -3,6 +3,11 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import me from '../../assets/images/me.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faLinkedin,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons'
 import './index.scss'
 
 const Home = () => {
@@ -53,6 +58,34 @@ const Home = () => {
           the postal code of the flat I lived when I first started using github.
           </p>
         </div>
+
+        <div className="social-icons">
+          <a
+            href="https://www.linkedin.com/in/hwayeon-kang/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="#4d4d4e"
+              className="anchor-icon"
+              size="2x"
+            />
+          </a>
+          <a
+            href="https://github.com/eh111eh"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="#4d4d4e"
+              className="anchor-icon"
+              size="2x"
+            />
+          </a>
+        </div>
+
       </div>
 
       <Loader type="pacman" />

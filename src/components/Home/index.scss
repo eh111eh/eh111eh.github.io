@@ -77,6 +77,15 @@
     animation: fadeIn 1s 2.0s backwards;
   }
 
+  .social-icons {
+    position: absolute;
+    bottom: 0px;
+    left: 55%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+  }
+
   .flat-button {
     color: #ff8400;
     font-size: 13px;

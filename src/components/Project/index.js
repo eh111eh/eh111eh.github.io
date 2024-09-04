@@ -62,8 +62,8 @@ const Project = () => {
                 <h1 className="page-title">
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={"Project".split("")}
-                        idx={7}
+                        strArray={"Projects".split("")}
+                        idx={8}
                     />
                 </h1>
                 <div>{renderPortfolio(portfolio)}</div>

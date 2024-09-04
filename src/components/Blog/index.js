@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
@@ -14,7 +14,7 @@ const Blog = () => {
     return () => {
       clearTimeout(timer);
     };
-  }, []);
+  });
 
   const blogPosts = [
     { title: 'GSoC 2024: Final Evaluation', date: '23 August 2024', link: '/Posts/final_evaluation.html' },
@@ -25,26 +25,24 @@ const Blog = () => {
   return (
     <>
       <div className="container blog-page">
-        <header className="headline wrapper">
           <div className="wrapper" data-wrapper-type="inner">
             <div className="repel">
               <div className="headline__meta cluster">
-                <h1 className="headline__heading">
+                <h1 className="page-title">
                   <AnimatedLetters
                     letterClass={letterClass}
-                    strArray={'Blog Posts'.split('')}
-                    idx={15}
+                    strArray={'Blog Posts'.split("")}
+                    idx={10}
                   />
                 </h1>
               </div>
-              <div className="headline__lede">
+              <div className="page-intro">
                 <p>
                   Welcome to the blog page. All posts are in chronological order.
                 </p>
               </div>
             </div>
           </div>
-        </header>
         <div className="post-list">
           <div className="wrapper">
             <ol>
