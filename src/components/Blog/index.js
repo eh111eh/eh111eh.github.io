@@ -18,8 +18,8 @@ const Blog = () => {
   });
 
   const blogPosts = [
-    { title: 'GSoC 2024: Final Evaluation', date: '23 August 2024', link: '/Posts/final_evaluation' },
-    { title: 'GSoC 2024: Week 12', date: '18 August 2024', link: '/Posts/week12' }
+    { title: 'GSoC 2024: Final Evaluation', date: '23 August 2024', link: '/FinalEvaluation' },
+    { title: 'GSoC 2024: Week 12', date: '18 August 2024', link: '/Week12' }
 
   ];
 

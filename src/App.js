@@ -4,7 +4,8 @@ import Project from './components/Project'
 import Layout from './components/Layout'
 import Blog from './components/Blog'
 import Dashboard from './components/Dashboard'
-import FinalEvaluation from './components/Posts/final_evaluation'
+import FinalEvaluation from './components/Posts/final_evaluation.js'
+import Week12 from './components/Posts/week12.js'
 import './App.scss'
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="project" element={<Project />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/Posts/final_evaluation" element={<FinalEvaluation />} />
+          <Route path="/FinalEvaluation" element={<FinalEvaluation />} />
+          <Route path="/Week12" element={<Week12 />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
