@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12</title>
+    <style>
+        body {
+            background-color: #F5F5DC;
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .blog-page {
+            padding-left: 100px;
+            padding-right: 50px;
+            width: calc(100% - 150px);
+            position: initial;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .blog-page h1.page-title {
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="blog-page">
+        <h1 class="page-title">Week 12</h1>
+        <p>Written on Sun, Aug 18, 2024.</p>
+
+        <h2 style="font-size: 20px;"># Issues</h2>
+            <li><a style="color: red;">Closed Issue</a> <a style="color: gray;" href="https://github.com/sympy/sympy/issues/26917">#26917</a><a>: Biomechanics docs redirects not present</li>
+                <blockquote>
+                    <p>The URLs</p>
+                    <code>'doc/src/tutorials/biomechanics/biomechanical-model-example.rst', 
+                        'doc/src/tutorials/biomechanics/biomechanics.rst'</code>
+                    <p>no longer exist because these files were moved via <a style="color: blueviolet;">PR</a> <a style="color: gray;" href="https://github.com/sympy/sympy/pull/26627">#326627</a>, which was applied to SymPy 1.13.</p>
+
+                    <p>The new URLs for these files are now</p>
+                    <code>'doc/src/tutorials/physics/biomechanics/biomechanical-model-example.rst',
+                        'doc/src/tutorials/physics/biomechanics/biomechanics.rst'</code>
+                    <p>as found in the SymPy 1.13.2 documentation site.</p>
+
+                    <p>Since <a style="color: blueviolet;">PR</a> <a style="color: gray;" href="https://github.com/sympy/sympy/pull/26727">#26727</a> further moved</p>
+                    <code>'doc/src/tutorials/physics/biomechanics/biomechanics.rst'</code>
+                    <p>to</p>
+                    <code>'doc/src/explanation/modules/physics/biomechanics/biomechanics.rst'</code>
+                    <p>the redirect is only needed for this change, and it's correctly set in <code>conf.py</code> as</p>
+                    <code>redirects = {
+                "tutorials/physics/biomechanics/biomechanics": "../explanation/modules/physics/biomechanics/biomechanics.html",
+                }</code>
+
+                    <p>And Jason updated the links without any problems, so he closed this issue.</p>
+                </blockquote>
+
+            <li><a style="color: blue;">Open Issue</a> <a style="color: gray;" href="https://github.com/sympy/sympy/issues/26929">#26929</a><a>: Simulation of a sliding block on a rotating disc</li>
+                <blockquote><p>Jason, Timo, and I discussed the pathway of the block.</p></blockquote>
+
+        <h2 style="font-size: 20px;"># Pull Requests</h2>
+            <li><a style="color: blue;">Open Pull Request</a> <a style="color: gray;" href="https://github.com/sympy/sympy/pull/26936">#26936</a><a>: Add an example of a block on a rotating disc to the tutorial documentation</li>
+                <ul>
+                    <li>Due to the disorganised and messy code of the SVG file for the schematic diagram, I installed Inkscape and redrew the schematic diagram in top view. To resolve the problem of some image components not appearing, I directly edited the SVG file code, changing <code>fill-opacity:0</code> to <code>fill-opacity:1</code> and <code>stroke:context-stroke</code> to <code>stroke:#000000</code>. I also set the background colour to white. Now, it correctly displays in dark mode.</li>
+                    <li>I rewrote the code starting from the simplest system, consisting of points <strong>O</strong> and <strong>P</strong>, without including the inertia of the disc and its point <strong>Q</strong>.
+                    <p>As discussed in the weekly meeting, I reset the system to have 2 reference frames, <strong>O</strong> and <strong>P</strong>. I rewrote the force in <code>to_loads</code> as a friction force that includes Stribeck and viscous terms, making it compatible with the <code>CoulombKineticFriction</code> actuator. I also included the inertia of the disc and its point <strong>Q</strong>, which starts from the same location as point <strong>P</strong>, and obtained the equations of motion using Kane's method.</p></li>
+                </ul>
+
+        <h2 style="font-size: 20px;"># Meeting</h2>
+        <p>Had a weekly meeting with Jason K. Moore (<a href="https://github.com/moorepants">@moorepants</a>) and Riccardo Di Girolamo (<a href="https://github.com/ricdigi">@ricdigi</a>) since Timo Stienstra (<a href="https://github.com/tjstienstra">@tjstienstra</a>) is on vacation. We discussed the concept of the <a href="https://github.com/sympy/sympy/pull/26936">simulation code</a>, including the correct position and velocity vectors of the block and its point P, reference frames, and the direction of the applied forces. Jason will also be on vacation next week.</p>
+
+        <h2 style="font-size: 20px;"># Others</h2>
+        <p>I wrote a <a href="https://github.com/eh111eh/eh111eh.github.io/wiki/(draft)-GSoC-2024-Report-Hwayeon-Kang:-Implementing-Specific-Forces-and-Torques">draft</a> of the final report to submit.</p>
+
+        <p>This week marks the final week of the official GSoC coding period.</p>
+    </div>
+</body>
+</html>

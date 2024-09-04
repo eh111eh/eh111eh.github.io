@@ -1,0 +1,56 @@
+.blog-page {
+  padding-left: 100px;
+  padding-right: 50px;
+  width: calc(100% - 150px);
+  position: initial;
+  height: 100%;
+  overflow: auto;
+
+  h1.page-title {
+      margin-left: 100px;
+      margin-top: 100px;
+  }
+  .headline {
+    margin-bottom: 40px;
+  }
+
+  .headline__heading {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .headline__lede {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+
+  .post-list {
+    margin-top: 10px;
+  }
+
+  .post {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    font-size: 12px;
+  }
+
+  .post__heading {
+    font-size: 12px;
+  }
+
+  .post__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .post__content a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+  }
+
+  .post__content time {
+    color: #777;
+  }
+}
