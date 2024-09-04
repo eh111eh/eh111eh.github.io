@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Evaluation</title>
+    <style>
+        body {
+            background-color: #F5F5DC;
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .blog-page {
+            padding-left: 100px;
+            padding-right: 50px;
+            width: calc(100% - 150px);
+            position: initial;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .blog-page h1.page-title {
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="blog-page">
+        <h1 class="page-title">Final Evaluation</h1>
+        <p>Written on Friday, 23 Aug 2024, in my fifth fav cafe.</p>
+
+        <p>Although the official GSoC coding period is over, I’m still working on my project to ensure that the project objectives are fully satisfied.</p>
+
+        <p>The final report, posted on the SymPy wiki page, is available at 
+            <a href="https://github.com/sympy/sympy/wiki/GSoC-2024-Report-Hwayeon-Kang:-Implementing-Specific-Forces-and-Torques">GSoC 2024 Report Hwayeon Kang: Implementing Specific Forces and Torques</a>.
+        </p>
+
+        <p>The official GSoC project page can be found at 
+            <a href="https://summerofcode.withgoogle.com/programs/2024/projects/kPT4IkQI">Google Summer of Code 2024 Project: Implementing Specific Forces and Torques</a>.
+        </p>
+
+        <h3>Summary of Issues and PRs</h3>
+        <p>After the mid evaluation, I opened 2 PRs, merged one of them, raised 1 issue and closed 1 issue.</p>
+
+        <p><span style="color: purple;">Merged PR</span> 
+            <a href="https://github.com/sympy/sympy/pull/26412">#26412</a>: Added a new actuator, CoulombKineticFriction, and its unit test, TestCoulombKineticFriction.
+        </p>
+
+        <p><span style="color: green;">Open PR</span> 
+            <a href="https://github.com/sympy/sympy/pull/26936">#26936</a>: Added an example model, a sliding block on a rotating disc, to the tutorial documentation.
+        </p>
+
+        <p><span style="color: green;">Open Issue</span> 
+            <a href="https://github.com/sympy/sympy/issues/26929">#26929</a>: Discussed some unclear points in the friction example model, including the pathway and the position/velocity calculation of a block.
+        </p>
+
+        <p><span style="color: purple;">Closed Issue</span> 
+            <a href="https://github.com/sympy/sympy/issues/26917">#26917</a>: Resolved the problem of non-working biomechanics docs URLs.
+        </p>
+
+        <h3>Feedback from Mentors / Certificate</h3>
+        <p>TBA</p>
+
+        <h3>Reflection</h3>
+        <p>I learned a lot during the project and found multibody dynamics to be very interesting. It was a great fortune to meet my mentors as I entered the world of open source. This project wouldn't have been possible without their support. With more enthusiasm and passion for both SymPy and physics that I've developed during GSoC, I will continue contributing to SymPy after GSoC.</p>
+
+        <p>I would like to thank Jason K. Moore 
+            (<a href="https://github.com/moorepants">@moorepants</a>) for helping me establish the initial concepts of the models to implement as actuators, asking questions that led me consider important points I might have missed, and consistently reviewing my PRs and issues. Many thanks to Timo Stienstra 
+            (<a href="https://github.com/tjstienstra">@tjstienstra</a>) for consistently reviewing my PRs and issues, helping me write more organised and clear code, and helping me set the concept of example models to add to the documentation.
+        </p>
+
+        <h3>Future Work</h3>
+        <ul>
+            <li>Complete the friction example model, a sliding block on a rotating disc, and merge PR 
+                <a href="https://github.com/sympy/sympy/pull/26936">#26936</a>.
+            </li>
+            <li>Complete Hill's muscle model actuator and merge PR 
+                <a href="https://github.com/sympy/sympy/pull/26443">#26443</a>.
+            </li>
+            <li>Add an example model of Hill's muscle model actuator to the documentation, starting with a single muscle.</li>
+        </ul>
+    </div>
+</body>
+</html>
