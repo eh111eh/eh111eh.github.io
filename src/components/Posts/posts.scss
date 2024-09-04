@@ -1,0 +1,91 @@
+.evaluation-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+  overflow: auto;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  max-height: 90%;
+  width: calc(100% - 200px);
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ff8400;
+  }
+
+  h3 {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .date {
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+
+  .cafe-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+
+  a {
+    font-size: 15px;
+    color: #055eb6;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .description {
+    color: #000;  // Black color for description text
+  }
+
+  .merged-pr .status-label {
+    color: purple;  // Purple for merged PR
+    font-weight: bold;
+  }
+
+  .open-pr .status-label,
+  .open-issue .status-label {
+    color: green;  // Green for open PR and open issues
+    font-weight: bold;
+  }
+
+  .closed-pr .status-label,
+  .closed-issue .status-label {
+    color: red;  // Red for closed PRs and closed issues
+    font-weight: bold;
+  }
+
+  ul {
+    font-size: 15px;
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #000;
+  }
+}

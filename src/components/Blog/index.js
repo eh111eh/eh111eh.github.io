@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'; 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
@@ -17,8 +18,8 @@ const Blog = () => {
   });
 
   const blogPosts = [
-    { title: 'GSoC 2024: Final Evaluation', date: '23 August 2024', link: '/Posts/final_evaluation.html' },
-    { title: 'GSoC 2024: Week 12', date: '18 August 2024', link: '/Posts/week12.html' }
+    { title: 'GSoC 2024: Final Evaluation', date: '23 August 2024', link: '/Posts/final_evaluation' },
+    { title: 'GSoC 2024: Week 12', date: '18 August 2024', link: '/Posts/week12' }
 
   ];
 
