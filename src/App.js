@@ -4,7 +4,7 @@ import Project from './components/Project'
 import Layout from './components/Layout'
 import Blog from './components/Blog'
 import Dashboard from './components/Dashboard'
-import FinalEvaluation from './components/Posts/final_evaluation.js'
+import FinalEvaluation from './components/Posts/final_evaluation'
 import Week12 from './components/Posts/week12.js'
 import './App.scss'
 
