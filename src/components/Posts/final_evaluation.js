@@ -31,21 +31,21 @@ const FinalEvaluation = () => {
       <h2>Summary of Issues and PRs</h2>
       <p>After the mid evaluation, I opened 2 PRs, merged one of them, raised 1 issue and closed 1 issue.</p>
       
-      <p className="merged-pr">
+      <li><p className="merged-pr">
         <span className="status-label">Merged PR</span> <a href="https://github.com/sympy/sympy/pull/26412">#26412</a>: <span className="description">Added a new actuator, CoulombKineticFriction, and its unit test, TestCoulombKineticFriction.</span>
-      </p>
+      </p></li>
       
-      <p className="open-pr">
+      <li><p className="open-pr">
         <span className="status-label">Open PR</span> <a href="https://github.com/sympy/sympy/pull/26936">#26936</a>: <span className="description">Added an example model, a sliding block on a rotating disc, to the tutorial documentation.</span>
-      </p>
+      </p></li>
       
-      <p className="open-issue">
+      <li><p className="open-issue">
         <span className="status-label">Open Issue</span> <a href="https://github.com/sympy/sympy/issues/26929">#26929</a>: <span className="description">Discussed some unclear points in the friction example model, including the pathway and the position/velocity calculation of a block.</span>
-      </p>
+      </p></li>
       
-      <p className="closed-issue">
+      <li><p className="closed-issue">
         <span className="status-label">Closed Issue</span> <a href="https://github.com/sympy/sympy/issues/26917">#26917</a>: <span className="description">Resolved the problem of non-working biomechanics docs URLs.</span>
-      </p>
+      </p></li>
 
       <h2>Feedback from Mentors / Certificate</h2>
       <img

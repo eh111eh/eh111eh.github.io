@@ -19,7 +19,8 @@ const Blog = () => {
 
   const blogPosts = [
     { title: 'GSoC 2024: Final Evaluation', date: '23 August 2024', link: '/FinalEvaluation' },
-    { title: 'GSoC 2024: Week 12', date: '18 August 2024', link: '/Week12' }
+    { title: 'GSoC 2024: Week 12', date: '18 August 2024', link: '/Week12' },
+    { title: 'GSoC 2024: Week 11', date: '9 August 2024', link: '/Week11' }
 
   ];
 
