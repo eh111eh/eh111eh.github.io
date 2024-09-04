@@ -47,7 +47,7 @@ const Blog = () => {
         </header>
         <div className="post-list">
           <div className="wrapper">
-            <ol role="list" reversed>
+            <ol>
               {blogPosts.map((post, index) => (
                 <li key={index}>
                   <div className="post post--newsletter" data-post-variant="newsletter">
