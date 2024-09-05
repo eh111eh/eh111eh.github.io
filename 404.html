@@ -1,13 +1,15 @@
-<!-- public/404.html -->
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
-    <script type="text/javascript">
-      // Redirect any non-root URL to the root URL, then let React Router handle it
-      window.location.href = "/";
-    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 - Page Not Found</title>
   </head>
   <body>
+    <script>
+      // Redirect to the correct page using JavaScript by serving index.html
+      window.location.replace('/#' + window.location.pathname);
+    </script>
   </body>
 </html>
