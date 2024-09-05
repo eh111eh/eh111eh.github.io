@@ -75,13 +75,15 @@
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 2.0s backwards;
+    padding-bottom: 30px;
   }
 
   .social-icons {
-    position: absolute;
-    bottom: 0px;
-    left: 55%;
+    position: relative;
+    bottom: 10px;
+    left: 45%;
     transform: translateX(-50%);
+    transform: translateY(-50%);
     display: flex;
     gap: 20px;
   }
