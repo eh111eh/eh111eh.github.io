@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard'
 import Finalevaluation from './components/Posts/final_evaluation'
 import Week12 from './components/Posts/week12'
 import Week11 from './components/Posts/week11'
+import Week10 from './components/Posts/week10'
 import './App.scss'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/blog/finalevaluation" element={<Finalevaluation />} />
           <Route path="/blog/week12" element={<Week12 />} />
           <Route path="/blog/week11" element={<Week11 />} />
+          <Route path="/blog/week10" element={<Week10 />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>

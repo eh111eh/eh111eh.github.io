@@ -70,6 +70,11 @@
     font-weight: bold;
   }
 
+  .draft-pr .status-label {
+    color: grey;  // Purple for draft PR
+    font-weight: bold;
+  }
+
   .open-pr .status-label,
   .open-issue .status-label {
     color: green;  // Green for open PR and open issues
