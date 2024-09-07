@@ -77,7 +77,7 @@ const Home = () => {
           </p>
 
           <p>
-          I love going for coffee — you can find some great spots in Edinburgh on my foodie account, @tastes.of.edinburgh.
+          I love going for coffee — you can find some great spots in Edinburgh on my foodie account, <a href='https://www.instagram.com/tastes.of.edinburgh/'>@tastes.of.edinburgh</a>.
           I'm also really into Economics.
           Plus, a lot of people have asked about my github id, eh111eh. There’s no deep meaning behind it — it’s just
           the postal code of the flat I lived when I first started using github.
