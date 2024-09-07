@@ -36,9 +36,9 @@ const IhpcJuly = () => {
         I found that A*STAR is more work-oriented. If you worked with me in Germany and disagree, feel free to DM me—haha.<br /><br />
         
         My main goal here was to enhance my professional skills, not only in machine learning but also in research and problem-solving. 
-        I reviewed over 12 papers, outlining the core methodologies and discussing their relevance and application to my project. 
-        This significantly improved my understanding of the project, as well as my background knowledge in machine learning and condensed matter 
-        physics—particularly MPEAs.<br /><br />
+        I <a href='https://github.com/eh111eh/MPEA-CRSS-Prediction/wiki/Paper-Review'>reviewed over 12 papers</a>, outlining the core methodologies and 
+        discussing their relevance and application to my project. This significantly improved my understanding of the project, as well as my background 
+        knowledge in machine learning and condensed matter physics—particularly MPEAs.<br /><br />
 
         I also strengthened my documentation skills. To manage my research tasks in a flexible work environment (which turned out to be unexpectedly flexible), 
         I independently prepared monthly reports, scheduled regular meetings with my supervisor, and progressed tasks based on feedback. Through this, 

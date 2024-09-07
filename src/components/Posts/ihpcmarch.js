@@ -60,18 +60,18 @@ const IhpcMarch = () => {
         <ul>
             <li>
                 Encountered an issue with disk memory that interrupted the download or unzipping of a zip file: Cleared out 32GB and secured the memory. <br /><br />
-                <code>
-                # Terminal command line to check files by disk memory usage in descending order<br /><br />
-                sudo du -h -d 1 /Users | sort -hr 
-                </code><br /><br />
-                <code>
-                # Command line to permanently delete both file path and file (not recoverable, file path will also be deleted, be cautious)<br /><br />
-                sudo rm -rf /Users
-                </code><br /><br />
-                <code>
+                <div className='text-box'>
+                    # Terminal command line to check files by disk memory usage in descending order<br /><br />
+                    sudo du -h -d 1 /Users | sort -hr
+                </div>
+                <div className='text-box'>
+                    # Command line to permanently delete both file path and file (not recoverable, file path will also be deleted, be cautious)<br /><br />
+                    sudo rm -rf /Users
+                </div>
+                <div className='text-box'>
                 # Command line to recreate a file path if accidentally deleted<br /><br />
                 mkdir /Users
-                </code>
+                </div>
             </li><br /><br />
             <li>
                 Faced difficulties with <em>config_list</em> a summary metric as the 'Errors' metric was not found; Resolved the issue with the 'Errors'

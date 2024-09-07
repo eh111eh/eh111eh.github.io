@@ -17,47 +17,37 @@ const Week12 = () => {
       <blockquote>
       <p>
         The URLs
-        <pre>
-          <code>
-            'doc/src/tutorials/biomechanics/biomechanical-model-example.rst',
-            <br />
-            'doc/src/tutorials/biomechanics/biomechanics.rst'
-          </code>
-        </pre>
+        <div className='text-box'>
+          'doc/src/tutorials/biomechanics/biomechanical-model-example.rst',<br />
+          'doc/src/tutorials/biomechanics/biomechanics.rst'
+        </div>
         no longer exist because these files were moved via{' '}
         <a href="https://github.com/sympy/sympy/pull/26627">PR #26627</a>, which was applied to SymPy 1.13.
       </p>
       <p>
         The new URLs for these files are now:
-        <pre>
-          <code>
-            'doc/src/tutorials/physics/biomechanics/biomechanical-model-example.rst',
-            <br />
-            'doc/src/tutorials/physics/biomechanics/biomechanics.rst'
-          </code>
-        </pre>
+        <div className='text-box'>
+          'doc/src/tutorials/physics/biomechanics/biomechanical-model-example.rst',<br />
+          'doc/src/tutorials/physics/biomechanics/biomechanics.rst'
+        </div>
         as found in the SymPy 1.13.2 documentation site.
       </p>
       <p>
         Since{' '}
         <a href="https://github.com/sympy/sympy/pull/26727">PR #26727</a> further moved:
-        <pre>
-          <code>'doc/src/tutorials/physics/biomechanics/biomechanics.rst'</code>
-        </pre>
+        <div className='text-box'>
+          'doc/src/tutorials/physics/biomechanics/biomechanics.rst'
+        </div>
         to:
-        <pre>
-          <code>'doc/src/explanation/modules/physics/biomechanics/biomechanics.rst'</code>
-        </pre>
-        the redirect is only needed for this change, and it's correctly set in `conf.py` as:
-        <pre>
-          <code>
-            redirects = {'{'}
-            <br />
-            "tutorials/physics/biomechanics/biomechanics": "../explanation/modules/physics/biomechanics/biomechanics.html",
-            <br />
-            {'}'}
-          </code>
-        </pre>
+        <div className='text-box'>'doc/src/explanation/modules/physics/biomechanics/biomechanics.rst'</div>
+        the redirect is only needed for this change, and it's correctly set in <em>conf.py</em> as:
+        <div className='text-box'>
+          redirects = {'{'}
+              <br />
+              "tutorials/physics/biomechanics/biomechanics": "../explanation/modules/physics/biomechanics/biomechanics.html",
+              <br />
+              {'}'}
+        </div>
       </p>
       <p>And Jason updated the links without any problems, so he closed this issue.</p>
       </blockquote>
@@ -78,11 +68,11 @@ const Week12 = () => {
           redrew the schematic diagram in top view. To resolve the problem of some image components not appearing, I
           directly edited the SVG file code, changing `fill-opacity:0` to `fill-opacity:1` and `stroke:context-stroke` to
           `stroke:#000000`. I also set the background color to white. Now, it correctly displays in dark mode.
-        </li>
+        </li><br />
         <li>
           I rewrote the code starting from the simplest system, consisting of points <b>O</b> and <b>P</b>, without
           including the inertia of the disc and its point <b>Q</b>.
-        </li>
+        </li><br />
         <li>
           As discussed in the weekly meeting, I reset the system to have 2 reference frames, <b>O</b> and <b>P</b>. I
           rewrote the force in `to_loads` as a friction force that includes Stribeck and viscous terms, making it
