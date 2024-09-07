@@ -43,7 +43,7 @@ const Home = () => {
           </h1>
           <h2>Developer / Physics Undergrad / Blogger</h2>
           <img src={me} alt="Me" className="me-image" />
-          <a href="https://drive.google.com/file/d/1EwHP7LS8gQYH7vFdCP49e5vqYQ1GoLHP/view?usp=sharing" className="flat-button" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1l3b0kpFYfilY_XgiJD6EqcKkod1cwGFJ/view?usp=sharing" className="flat-button" target="_blank" rel="noopener noreferrer">
           Resume
           </a>
           <p>
