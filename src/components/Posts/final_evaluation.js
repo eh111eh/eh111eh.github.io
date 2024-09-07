@@ -52,7 +52,7 @@ const Finalevaluation = () => {
         src="https://firebasestorage.googleapis.com/v0/b/portfolio-bfe5b.appspot.com/o/final_feedback.jpg?alt=media&token=d98cdca9-013c-4c73-910c-397d1737ca34"
         alt="final_feedback"
         className="cafe-image"
-      />
+      /><br />
       <img
         src="https://firebasestorage.googleapis.com/v0/b/portfolio-bfe5b.appspot.com/o/completion_certificate_2024_contributor.pdf?alt=media&token=7c24a352-163e-4f25-ad7c-ff10b7951830"
         alt="certificate"

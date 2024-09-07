@@ -22,18 +22,23 @@ const Blog = () => {
     { title: 'GSoC Week 12', date: '18 August 2024', link: '/blog/week12', external: false },
     { title: 'GSoC Week 11', date: '9 August 2024', link: '/blog/week11', external: false },
     { title: 'GSoC Week 10', date: '4 August 2024', link: '/blog/week10', external: false },
+    { title: 'Singapore ASTAR-IHPC July Report', date: '31 July 2024', link: '/blog/ihpcjuly', external: false },
     { title: 'GSoC Week 9', date: '27 July 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week9.md', external: true },
     { title: 'GSoC Week 8', date: '21 July 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week8.md', external: true },
     { title: 'GSoC Week 7', date: '14 July 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week7.md', external: true },
     { title: 'GSoC Mid Evaluation', date: '12 July 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/01-work-summary/mid-evaluation.md', external: true },
     { title: 'GSoC Week 6', date: '7 July 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week6.md', external: true },
     { title: 'GSoC Week 5', date: '30 June 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week5.md', external: true },
+    { title: 'Singapore ASTAR-IHPC June Report', date: '28 June 2024', link: '/blog/ihpcjune', external: false },
     { title: 'GSoC Week 4', date: '23 June 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week4.md', external: true },
     { title: 'GSoC Week 3', date: '16 June 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week3.md', external: true },
     { title: 'GSoC Week 2', date: '9 June 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week2.md', external: true },
     { title: 'GSoC Week 1', date: '2 June 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/week1.md', external: true },
+    { title: 'Singapore ASTAR-IHPC May Report', date: '31 May 2024', link: '/blog/ihpcmay', external: false },
     { title: 'Note: Hill-Type Muscle Model', date: '30 May 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/03-documents/notes.md', external: true },
-    { title: 'GSoC Community Bonding Period', date: '26 May 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/community-bonding-period.md', external: true }
+    { title: 'GSoC Community Bonding Period', date: '26 May 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/community-bonding-period.md', external: true },
+    { title: 'Singapore ASTAR-IHPC April Report', date: '30 April 2024', link: '/blog/ihpcapril', external: false },
+    { title: 'Singapore ASTAR-IHPC March Report', date: '29 March 2024', link: '/blog/ihpcmarch', external: false },
   ];
 
   return (

@@ -98,6 +98,23 @@
       color: #333;
     }
   }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .anchor-icon {
+    color: #4d4d4e;
+    font-size: 30px;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #ff8400;
+    }
+  }
 }
 
 
