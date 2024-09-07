@@ -39,6 +39,7 @@ const Blog = () => {
     { title: 'GSoC Community Bonding Period', date: '26 May 2024', link: 'https://github.com/eh111eh/gsoc-blog/blob/main/_docs/02-weeks/community-bonding-period.md', external: true },
     { title: 'Singapore ASTAR-IHPC April Report', date: '30 April 2024', link: '/blog/ihpcapril', external: false },
     { title: 'Singapore ASTAR-IHPC March Report', date: '29 March 2024', link: '/blog/ihpcmarch', external: false },
+    { title: 'Project Presentation in HZDR, Germany', date: '30 August 2023', link: 'https://www.linkedin.com/posts/hwayeon-kang_im-excited-to-update-everyone-on-my-summer-activity-7102698206827876352-lN5i?utm_source=share&utm_medium=member_desktop', external: true },
   ];
 
   return (
