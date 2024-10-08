@@ -43,7 +43,7 @@ const Home = () => {
           </h1>
           <h2>Developer / Physics Undergrad / Blogger</h2>
           <img src={me} alt="Me" className="me-image" />
-          <a href="https://drive.google.com/file/d/1l3b0kpFYfilY_XgiJD6EqcKkod1cwGFJ/view?usp=sharing" className="flat-button" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1vu-3dRMHfJIMmz5opLX5WKJudG_P0QiA/view?usp=sharing" className="flat-button" target="_blank" rel="noopener noreferrer">
           Resume
           </a>
           <p>
@@ -69,7 +69,7 @@ const Home = () => {
             - Develop tree-based models to analyse animal range residency patterns from GPS datasets.<br />
             - Currently not publicly available since the paper hasn’t been published yet.
             </li>
-            <li><a href=''>LungLink Hub</a><br />
+            <li><a href='https://github.com/eh111eh/LungLink-Hub'>LungLink Hub</a><br />
             - A ML based web application to predict lung cancer mortality using socioeconomic and health data.
             </li>
           </ul>

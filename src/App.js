@@ -13,6 +13,8 @@ import IhpcApril from './components/Posts/ihpcapril'
 import IhpcMay from './components/Posts/ihpcmay'
 import IhpcJune from './components/Posts/ihpcjune'
 import IhpcJuly from './components/Posts/ihpcjuly'
+import ProgrammeRep1 from './components/Posts/programmerep1'
+import EdinburghAward from './components/Posts/edinburghaward'
 import './App.scss'
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
           <Route path="/blog/ihpcjune" element={<IhpcJune />} />
           <Route path="/blog/ihpcjuly" element={<IhpcJuly />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/blog/programmerep1" element={<ProgrammeRep1 />} />
+          <Route path="/blog/edinburghaward" element={<EdinburghAward />} />
         </Route>
       </Routes>
     </>

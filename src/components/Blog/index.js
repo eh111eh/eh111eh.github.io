@@ -18,6 +18,8 @@ const Blog = () => {
   });
 
   const blogPosts = [
+    { title: 'Joined Students Association as a Programme Representative', date: '8 Oct 2024', link: '/blog/programmerep1', external: false },
+    { title: 'Awarded Edinburgh Award (Work Experience)', date: '30 Sep 2024', link: '/blog/edinburghaward', external: false },
     { title: 'GSoC Final Evaluation', date: '23 August 2024', link: '/blog/finalevaluation', external: false },
     { title: 'GSoC Week 12', date: '18 August 2024', link: '/blog/week12', external: false },
     { title: 'GSoC Week 11', date: '9 August 2024', link: '/blog/week11', external: false },
