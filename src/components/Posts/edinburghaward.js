@@ -8,7 +8,7 @@ const EdinburghAward = () => {
       <h3>Category: Student Activity</h3>
       <p className="date">Written on Monday, 30 Sep 2024, in JCMB.</p>
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/portfolio-bfe5b.appspot.com/o/Hwayeon%20Kang%20Edinburgh%20Award(Work%20Experience).pdf?alt=media&token=e1bc0e25-7889-4339-b720-2c06ac908348"
+        src="https://firebasestorage.googleapis.com/v0/b/portfolio-bfe5b.appspot.com/o/Screenshot%202024-10-09%20at%2017.27.50.png?alt=media&token=60e2133e-b1bc-4a36-84d6-66693ee111b2"
         alt="edinburgh-award-certificate"
         className="cafe-image"
       /><br/>
