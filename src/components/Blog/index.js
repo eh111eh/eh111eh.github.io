@@ -18,8 +18,9 @@ const Blog = () => {
   });
 
   const blogPosts = [
-    { title: 'Joined Students Association as a Programme Representative', date: '8 Oct 2024', link: '/blog/programmerep1', external: false },
-    { title: 'Achieved the Edinburgh Award (Work Experience)', date: '30 Sep 2024', link: '/blog/edinburghaward', external: false },
+    { title: 'Presented as a speaker at the Google Summer of Code 2024 Lightning Talks', date: '17 October 2024', link: 'https://www.linkedin.com/posts/hwayeon-kang_google-summer-of-code-activity-7255692782734843905-_mue?utm_source=share&utm_medium=member_desktop', external: true },
+    { title: 'Joined Students Association as a Programme Representative', date: '8 October 2024', link: '/blog/programmerep1', external: false },
+    { title: 'Achieved the Edinburgh Award (Work Experience)', date: '30 September 2024', link: '/blog/edinburghaward', external: false },
     { title: 'GSoC Final Evaluation', date: '23 August 2024', link: '/blog/finalevaluation', external: false },
     { title: 'GSoC Week 12', date: '18 August 2024', link: '/blog/week12', external: false },
     { title: 'GSoC Week 11', date: '9 August 2024', link: '/blog/week11', external: false },
