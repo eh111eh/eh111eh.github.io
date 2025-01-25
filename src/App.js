@@ -15,6 +15,7 @@ import IhpcJune from './components/Posts/ihpcjune'
 import IhpcJuly from './components/Posts/ihpcjuly'
 import ProgrammeRep1 from './components/Posts/programmerep1'
 import EdinburghAward from './components/Posts/edinburghaward'
+import HumanEd1 from './components/Posts/humaned1'
 import './App.scss'
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/blog/programmerep1" element={<ProgrammeRep1 />} />
           <Route path="/blog/edinburghaward" element={<EdinburghAward />} />
+          <Route path="/blog/humaned1" element={<HumanEd1 />} />
         </Route>
       </Routes>
     </>

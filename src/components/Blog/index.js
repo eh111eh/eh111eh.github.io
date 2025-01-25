@@ -18,6 +18,7 @@ const Blog = () => {
   });
 
   const blogPosts = [
+    { title: 'Joined the Humanoid Robotics Society as a Robotics Engineer', date: '25 Jan 2025', link: '/blog/humaned1', external: false },
     { title: 'Presented as a speaker at the Google Summer of Code 2024 Lightning Talks', date: '17 October 2024', link: 'https://www.linkedin.com/posts/hwayeon-kang_google-summer-of-code-activity-7255692782734843905-_mue?utm_source=share&utm_medium=member_desktop', external: true },
     { title: 'Joined Students Association as a Programme Representative', date: '8 October 2024', link: '/blog/programmerep1', external: false },
     { title: 'Achieved the Edinburgh Award (Work Experience)', date: '30 September 2024', link: '/blog/edinburghaward', external: false },
