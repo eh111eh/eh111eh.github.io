@@ -18,6 +18,9 @@ const Blog = () => {
   });
 
   const blogPosts = [
+    { title: 'Robotics Society Week 4, 5, 6', date: '18 Feb 2025', link: '/blog/humaned2', external: false },
+    { title: '180DC Week 4, 5, 6', date: '18 Feb 2025', link: '/blog/180dcweek456', external: false },
+    { title: 'Attended Staff-Student Liaison Committee (SSLC) as a Representative', date: '8 Feb 2025', link: '/blog/sslc1', external: false },
     { title: '180DC Week 3', date: '1 Feb 2025', link: '/blog/180dctraining', external: false },
     { title: 'Joined the Humanoid Robotics Society as a Robotics Engineer', date: '25 Jan 2025', link: '/blog/humaned1', external: false },
     { title: 'Presented as a speaker at the Google Summer of Code 2024 Lightning Talks', date: '17 October 2024', link: 'https://www.linkedin.com/posts/hwayeon-kang_google-summer-of-code-activity-7255692782734843905-_mue?utm_source=share&utm_medium=member_desktop', external: true },

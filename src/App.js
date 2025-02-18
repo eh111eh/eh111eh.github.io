@@ -17,6 +17,9 @@ import ProgrammeRep1 from './components/Posts/programmerep1'
 import EdinburghAward from './components/Posts/edinburghaward'
 import HumanEd1 from './components/Posts/humaned1'
 import ConsultantTraining from './components/Posts/180dctraining'
+import SSLC1 from './components/Posts/sslc1'
+import DCWeek456 from './components/Posts/180dcweek456'
+import HumanEd2 from './components/Posts/humaned2'
 import './App.scss'
 
 function App() {
@@ -41,6 +44,9 @@ function App() {
           <Route path="/blog/edinburghaward" element={<EdinburghAward />} />
           <Route path="/blog/humaned1" element={<HumanEd1 />} />
           <Route path="/blog/180dctraining" element={<ConsultantTraining />} />
+          <Route path="/blog/sslc1" element={<SSLC1 />} />
+          <Route path="/blog/180dcweek456" element={<DCWeek456 />} />
+          <Route path="/blog/humaned2" element={<HumanEd2 />} />
         </Route>
       </Routes>
     </>
