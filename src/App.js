@@ -20,6 +20,7 @@ import ConsultantTraining from './components/Posts/180dctraining'
 import SSLC1 from './components/Posts/sslc1'
 import DCWeek456 from './components/Posts/180dcweek456'
 import HumanEd2 from './components/Posts/humaned2'
+import MidPPT from './components/Posts/180dcmidppt'
 import './App.scss'
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <Route path="/blog/sslc1" element={<SSLC1 />} />
           <Route path="/blog/180dcweek456" element={<DCWeek456 />} />
           <Route path="/blog/humaned2" element={<HumanEd2 />} />
+          <Route path="/blog/180dcmidppt" element={<MidPPT />} />
         </Route>
       </Routes>
     </>

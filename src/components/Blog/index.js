@@ -18,6 +18,8 @@ const Blog = () => {
   });
 
   const blogPosts = [
+    { title: '180DC Mid-Project Presentation', date: '5 Mar 2025', link: '/blog/180dcmidppt', external: false },
+    { title: 'Won First Place at Hack The Burgh', date: '4 Mar 2024', link: 'https://www.linkedin.com/posts/hwayeon-kang_im-excited-to-share-that-our-team-slabbers-activity-7302111254427406336-meco?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER1EQsBtDZNCu9QnjD1r9hrKqkGd0LcNgo', external: true },
     { title: 'Robotics Society Week 4, 5, 6', date: '18 Feb 2025', link: '/blog/humaned2', external: false },
     { title: '180DC Week 4, 5, 6', date: '18 Feb 2025', link: '/blog/180dcweek456', external: false },
     { title: 'Attended Staff-Student Liaison Committee (SSLC) as a Representative', date: '8 Feb 2025', link: '/blog/sslc1', external: false },
