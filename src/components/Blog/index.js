@@ -18,6 +18,10 @@ const Blog = () => {
   });
 
   const blogPosts = [
+    { title: 'Joined the 2025 GSoC SymPy Mentoring Team', date: '24 Mar 2025', link: '/blog/gsocmentor', external: false },
+    { title: 'Accepted for UoE Physics and Astronomy Career Development Scholarship for Summer Research', date: '24 Mar 2025', link: '', external: true },
+    { title: 'Elected Technical Director of the HumanEd Computer Vision Team', date: '24 Mar 2025', link: '/blog/humanedegm', external: false },
+    { title: '180DC Final-Project Presentation', date: '2 April 2025', link: '/blog/180dcfinalppt', external: false },
     { title: '180DC Mid-Project Presentation', date: '5 Mar 2025', link: '/blog/180dcmidppt', external: false },
     { title: 'Won First Place at Hack The Burgh', date: '4 Mar 2024', link: 'https://www.linkedin.com/posts/hwayeon-kang_im-excited-to-share-that-our-team-slabbers-activity-7302111254427406336-meco?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER1EQsBtDZNCu9QnjD1r9hrKqkGd0LcNgo', external: true },
     { title: 'Robotics Society Week 4, 5, 6', date: '18 Feb 2025', link: '/blog/humaned2', external: false },
