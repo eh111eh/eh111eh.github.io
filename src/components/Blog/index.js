@@ -19,7 +19,7 @@ const Blog = () => {
 
   const blogPosts = [
     { title: 'Joined the 2025 GSoC SymPy Mentoring Team', date: '24 Mar 2025', link: '/blog/gsocmentor', external: false },
-    { title: 'Accepted for UoE Physics and Astronomy Career Development Scholarship for Summer Research', date: '24 Mar 2025', link: '', external: true },
+    { title: 'Accepted for UoE Physics and Astronomy Career Development Scholarship for Summer Research', date: '24 Mar 2025', link: 'https://www.linkedin.com/posts/hwayeon-kang_im-happy-to-accept-the-2025-physics-and-activity-7332133895284412416-3Tke?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER1EQsBtDZNCu9QnjD1r9hrKqkGd0LcNgo', external: true },
     { title: 'Elected Technical Director of the HumanEd Computer Vision Team', date: '24 Mar 2025', link: '/blog/humanedegm', external: false },
     { title: '180DC Final-Project Presentation', date: '2 April 2025', link: '/blog/180dcfinalppt', external: false },
     { title: '180DC Mid-Project Presentation', date: '5 Mar 2025', link: '/blog/180dcmidppt', external: false },
