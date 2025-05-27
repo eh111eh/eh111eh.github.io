@@ -8,6 +8,11 @@ const FinalPPT = () => {
       <h3>Category: Student Activity</h3>
       <p className="date">Written at home on Saturday, 2 April 2025.</p>
       <img
+        src="https://firebasestorage.googleapis.com/v0/b/portfolio-bfe5b.appspot.com/o/180dc_certificate.png?alt=media&token=c7131722-b50c-4385-8e25-bfe89fbc1d3c"
+        alt="180dc certificate"
+        className="cafe-image"
+      />
+      <img
         src="https://firebasestorage.googleapis.com/v0/b/portfolio-bfe5b.appspot.com/o/180finalpresentation.png?alt=media&token=c66793fd-5c4b-4ae3-85d6-f9bb99bfcb1c"
         alt="180finalpresentation"
         className="cafe-image"
