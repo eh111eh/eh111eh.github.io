@@ -18,6 +18,7 @@ const Blog = () => {
   });
 
   const blogPosts = [
+    { title: 'GSoC Project Mentoring: Presented Atwood Machine and Working on WrappingSphere', date: '8 June 2025', link: '/blog/gsocmentor2', external: false },
     { title: 'Joined the 2025 GSoC SymPy Mentoring Team', date: '24 May 2025', link: '/blog/gsocmentor', external: false },
     { title: 'Accepted for UoE Physics and Astronomy Career Development Scholarship for Summer Research', date: '24 May 2025', link: 'https://www.linkedin.com/posts/hwayeon-kang_im-happy-to-accept-the-2025-physics-and-activity-7332133895284412416-3Tke?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER1EQsBtDZNCu9QnjD1r9hrKqkGd0LcNgo', external: true },
     { title: 'Elected Technical Director of the HumanEd Computer Vision Team', date: '24 May 2025', link: '/blog/humanedegm', external: false },
