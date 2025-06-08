@@ -21,7 +21,6 @@ const GSoCmentor2 = () => {
 
       <h2>Pull Requests</h2>
 
-      <li>
         <p className="open-pr">
           <span className="status-label">Open PR</span>{' '}
           <a href="https://github.com/sympy/sympy/pull/28098">#28098</a>:{' '}
@@ -32,7 +31,6 @@ const GSoCmentor2 = () => {
           <a href="https://github.com/sympy/sympy/pull/28111">#28111</a>:{' '}
           <span className="description">Add usage example for WrappingCylinder to SymPy documentation.</span>
         </p>
-      </li>
       <p>Over the past two weeks, my mentee Rushabh and I have been working on presenting various
       mechanical models using wrapping geometry actuators: <i>WrappingCylinder</i> and <i>WrappingSphere</i>.
       I suggested simulating an Atwood Machine using the <i>WrappingCylinder</i> actuator to represent the pulley.
@@ -52,7 +50,6 @@ const GSoCmentor2 = () => {
         />
       </div>
 
-      <li>
         <p className="open-pr">
           <span className="status-label">Open PR</span>{' '}
           <a href="https://github.com/sympy/sympy/pull/28098">#28098</a>:{' '}
@@ -63,7 +60,6 @@ const GSoCmentor2 = () => {
           <a href="https://github.com/sympy/sympy/pull/28123">#28123</a>:{' '}
           <span className="description">Integrate WrappingSphere into biomechanical model example in SymPy docs.</span>
         </p>
-      </li>
       <p>
         We have also been working on simulating another physical model using the <i>WrappingSphere</i> actuator.
         Through the discussion in <a href="https://github.com/sympy/sympy/pull/28123">PR #28123</a>,
