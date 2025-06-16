@@ -43,14 +43,17 @@ const Home = () => {
           </h1>
           <h2>Developer / Physics Undergrad / Blogger</h2>
           <img src={me} alt="Me" className="me-image" />
-          <a href="https://drive.google.com/file/d/1D3HuK4Umv84jNUsHFW3l_GTK1MwGL-Mi/view?usp=sharing" className="flat-button" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1eOFK6mLlVmWGaaRMFjpegi4h9ZRCpUQm/view?usp=sharing" className="flat-button" target="_blank" rel="noopener noreferrer">
           Resume
           </a>
           <p>
-          Born and raised in Seoul, Korea, currently studying mathematical physics in Edinburgh, UK.
-          I took a gap year during the 2023/24 academic year to explore different fields and interests.
-          During that time, I worked on machine learning, condensed matter physics, and multibody dynamics
-          as a developer and research intern in Germany, Singapore, and remotely from Korea.
+            Born and raised in Seoul, Korea, I'm currently studying mathematical physics in Edinburgh, UK.
+            I took a gap year in 2023/24 to work on ML, condensed matter physics, and mechanical system modelling as an ML intern and software developer in Germany, Singapore, and remotely from Korea.
+          </p>
+          <p>
+            This summer, in 2025, I'm working as an AI intern at Dyneval on a project developing AI to analyse cell images, funded by a university scholarship.
+            Additionally, I'm serving as a project mentor for the SymPy Google Summer of Code project, developing new symbolic wrapping geometry classes and implementing various mechanical models,
+            including an Atwood machine and muscle wrapping over a bone.
           </p>
 
           <p>
