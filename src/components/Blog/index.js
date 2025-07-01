@@ -18,6 +18,8 @@ const Blog = () => {
   });
 
   const blogPosts = [
+    { title: 'GSoC Project Mentoring: System Modelling Proposal & WrappingSphere Deprecation Discussion', date: '1 July 2025', link: '/blog/gsocmentor3', external: false },
+    { title: 'Dyneval Week 2 & 3', date: '1 July 2025', link: '/blog/dynevalweek23', external: false },
     { title: 'Dyneval Week 1', date: '16 June 2025', link: '/blog/dynevalweek1', external: false },
     { title: 'GSoC Project Mentoring: Presented Atwood Machine and Working on WrappingSphere', date: '8 June 2025', link: '/blog/gsocmentor2', external: false },
     { title: 'Joined the 2025 GSoC SymPy Mentoring Team', date: '24 May 2025', link: '/blog/gsocmentor', external: false },

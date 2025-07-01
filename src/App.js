@@ -26,6 +26,8 @@ import FinalPPT from './components/Posts/180dcfinalppt'
 import GSoCmentor from './components/Posts/gsocmentor'
 import GSoCmentor2 from './components/Posts/gsocmentor2'
 import Dynevalweek1 from './components/Posts/dynevalweek1'
+import Dynevalweek23 from './components/Posts/dynevalweek23'
+import GSoCmentor3 from './components/Posts/gsocmentor3'
 import './App.scss'
 
 function App() {
@@ -59,6 +61,8 @@ function App() {
           <Route path="/blog/gsocmentor" element={<GSoCmentor />} />
           <Route path="/blog/gsocmentor2" element={<GSoCmentor2 />} />
           <Route path="/blog/dynevalweek1" element={<Dynevalweek1 />} />
+          <Route path="/blog/dynevalweek23" element={<Dynevalweek23 />} />
+          <Route path="/blog/gsocmentor3" element={<GSoCmentor3 />} />
         </Route>
       </Routes>
     </>
