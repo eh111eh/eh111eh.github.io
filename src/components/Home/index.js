@@ -110,7 +110,7 @@ const Home = () => {
             <li><a href='https://summerofcode.withgoogle.com/programs/2025/projects/uvXG3nzX'>SymPy Wrapping Geometry Models</a><br />
             - Designed musculotendon-wrapping usage examples (e.g. muscle-over-bone) for SymPy's mechanics module, cited as foundational work in subsequent biomechanical development.
             </li>
-            <li><a href='https://docs.google.com/presentation/d/1TvTmirmkErjFoQp1NMz-wO8bNLqeMb8aIwfbcfIIyJg/edit#slide=id.p'>[Hack The Burgh Winning Project] Simulated Market-Making & Arbitrage Trading Algorithms</a><br />
+            <li><a href='https://docs.google.com/presentation/d/1TvTmirmkErjFoQp1NMz-wO8bNLqeMb8aIwfbcfIIyJg/edit#slide=id.p'>Simulated Market-Making & Arbitrage Trading Algorithms</a><br />
             - Hack The Burgh Winning Project.<br/>
             - Developed trading algorithms in a simulated market with a focus on arbitrage and market-making strategies; earned a PnL of $23K in 20 mins.<br/>
             - Code unavailable as the authority over it belongs to <a href='https://optiver.com/'>Optiver</a>.

@@ -71,4 +71,21 @@
             color: #000;
         }
     }
+
+    @media screen and (max-width: 900px) {
+        padding-left: 0;
+        width: 100%;
+
+        h1.page-title {
+            margin-left: 20px;
+            margin-top: 60px;
+        }
+
+        .images-container {
+            grid-template-columns: 1fr;
+            gap: 40px;
+            padding: 30px 20px 80px;
+            justify-content: stretch;
+        }
+    }
 }
