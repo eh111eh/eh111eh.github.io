@@ -12,6 +12,7 @@ import './index.scss'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const [resumeOpen, setResumeOpen] = useState(false)
 
   const nameArray = ['w', 'a', 'y', 'e', 'o', 'n']
 
@@ -20,6 +21,21 @@ const Home = () => {
       setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
+
+  const resumes = [
+    {
+      label: 'Quant Trading / Research',
+      url: 'https://drive.google.com/file/d/18sd1vhZ2NZ1evBUlhAFLy623kX8FMEsb/view?usp=sharing',
+    },
+    {
+      label: 'Data Science (Pharma & Biotech)',
+      url: 'https://drive.google.com/file/d/1xLuj8rupL6Ghhoe6OiA8uiC0GYQT_vto/view?usp=sharing',
+    },
+    {
+      label: 'Strategy Consulting',
+      url: 'https://drive.google.com/file/d/1BRnDR8EkC60_XQW1owaBbEwZyOjIPPYQ/view?usp=sharing',
+    },
+  ]
 
   return (
     <>
@@ -41,58 +57,71 @@ const Home = () => {
               idx={15}
             />
           </h1>
-          <h2>Developer / Physics Undergrad / Blogger</h2>
+          <h2>Mathematical Physics Student / Quant & ML Researcher</h2>
           <img src={me} alt="Me" className="me-image" />
-          <a href="https://drive.google.com/file/d/1eOFK6mLlVmWGaaRMFjpegi4h9ZRCpUQm/view?usp=sharing" className="flat-button" target="_blank" rel="noopener noreferrer">
-          Resume
-          </a>
-          <p>
-            Born and raised in Seoul, Korea, I'm currently studying mathematical physics in Edinburgh, UK.
-            I took a gap year in 2023/24 to work on ML, condensed matter physics, and mechanical system modelling as an ML intern and software developer in Germany, Singapore, and remotely from Korea.
-          </p>
-          <p>
-            This summer, in 2025, I'm working as an AI intern at Dyneval on a project developing AI to analyse cell images, funded by a university scholarship.
-            Additionally, I'm serving as a project mentor for the SymPy Google Summer of Code project, developing new symbolic wrapping geometry classes and implementing various mechanical models,
-            including an Atwood machine and muscle wrapping over a bone.
-          </p>
+
+          <div className="resume-dropdown">
+            <button
+              type="button"
+              className="flat-button"
+              onClick={() => setResumeOpen((prev) => !prev)}
+              aria-haspopup="true"
+              aria-expanded={resumeOpen}
+            >
+              Resume {resumeOpen ? '▲' : '▼'}
+            </button>
+            {resumeOpen && (
+              <div className="resume-menu" role="menu">
+                {resumes.map((r) => (
+                  <a
+                    key={r.label}
+                    href={r.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    role="menuitem"
+                    onClick={() => setResumeOpen(false)}
+                  >
+                    {r.label}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
 
           <p>
-          I’ve worked on multiple projects, including:
+            Born and raised in Seoul, Korea, I'm currently studying mathematical physics at the University of Edinburgh, UK, graduating in May 2027.
+            I work across quantitative research, machine learning, and applied physics — most recently on biophysics research, GAN-based materials modelling, and open-source scientific computing.
+          </p>
+          <p>
+            I'm especially drawn to problems where physical or biological systems meet data. Since 2023, that's taken me from modelling materials science data in Singapore, to animal movement ecology in Germany, to building computer vision models for cell analysis at Dyneval here in the UK.
+          </p>
+ 
+          <p>
+          I've worked on multiple projects, including:
           <ul>
-            <li><a href='https://docs.google.com/presentation/d/1TvTmirmkErjFoQp1NMz-wO8bNLqeMb8aIwfbcfIIyJg/edit#slide=id.p'>Optiver Trading Challenge</a><br />
-            - Hack The Burgh Winning Project.<br/>
-            - Developed trading algorithms in a simulated market with a focus on arbitrage and market-making strategies; Earned a PnL of $23K in 20 mins.<br/>
-            - Code unavailable as the authority over it belongs to <a href='https://optiver.com/'>Optiver</a>.
-            </li>
-            <li><a href='https://dorahacks.io/buidl/23546/about'>Viridien Geospatial AI Challenge</a><br />
-            - Hack The Burgh Winning Project.<br/>
-            - Enhanced low-resolution satellite image and built a U-Net++ model for land use classification.
-            </li>
-            <li><a href='https://summerofcode.withgoogle.com/programs/2024/projects/kPT4IkQI'>Implementing specific forces and torques</a><br />
-            - Implemented three nonlinear force actuators-Duffing spring, Coulomb kinetic friction, and Hill's muscle model-into
-            SymPy (sympy.physics.mechanics) and added their corresponding example models to the documentation.
+            <li><a href='https://drive.google.com/file/d/19AcgZtecozrMIBviKQpUjJAhS8hEDV70/view?usp=sharing'>Thermal Remodelling of Bacterial Biofilm Matrices</a><br />
+            - Senior Honours Project, University of Edinburgh.<br/>
+            - Quantified thermal biofilm matrix remodelling across 7 <em>B. subtilis</em> isolates using oscillatory rheometry and OCT imaging.
             </li>
             <li><a href='https://firebasestorage.googleapis.com/v0/b/portfolio-bfe5b.appspot.com/o/mpea-crss-private.png?alt=media&token=e48b255d-b880-4a68-b33c-e32e7576c65d'>MPEA-CRSS-Prediction</a><br />
-            - Developed a GAN-based regression model and tree-based models to better predict critical resolved shear stress
-            from multi-principle element alloys and short range order data.<br />
-            - Currently not publicly available since the paper hasn’t been published yet.
+            - Built a GAN-based regression model, benchmarked against tree-based baselines, to predict critical resolved shear stress from multi-principal element alloy and short-range order data.<br />
+            - Currently not publicly available as the manuscript is in preparation.
             </li>
-            <li><a href='https://docs.google.com/presentation/d/14_5BI1k6dh45tAGgxK2JH4x2ieat8ACB5CY66d3LZbQ/pub?start=false&loop=false&delayms=3000&slide=id.g279179e672e_4_965'>Identify range residency from animal tracking data using ML</a><br />
-            - Developed tree-based models to analyse animal range residency patterns from GPS datasets.<br />
-            - Currently not publicly available since the paper hasn’t been published yet.
+            <li><a href='https://summerofcode.withgoogle.com/programs/2025/projects/uvXG3nzX'>SymPy Wrapping Geometry Models</a><br />
+            - Designed musculotendon-wrapping usage examples (e.g. muscle-over-bone) for SymPy's mechanics module, cited as foundational work in subsequent biomechanical development.
             </li>
-            <li><a href='https://github.com/eh111eh/LungLink-Hub'>LungLink Hub</a><br />
-            - A ML based web application to predict lung cancer mortality using socioeconomic and health data.
+            <li><a href='https://docs.google.com/presentation/d/1TvTmirmkErjFoQp1NMz-wO8bNLqeMb8aIwfbcfIIyJg/edit#slide=id.p'>[Hack The Burgh Winning Project] Simulated Market-Making & Arbitrage Trading Algorithms</a><br />
+            - Hack The Burgh Winning Project.<br/>
+            - Developed trading algorithms in a simulated market with a focus on arbitrage and market-making strategies; earned a PnL of $23K in 20 mins.<br/>
+            - Code unavailable as the authority over it belongs to <a href='https://optiver.com/'>Optiver</a>.
             </li>
           </ul>
-          You can also find these projects on the <a href='https://eh111eh.github.io/#/project'>Projects</a> page.
+          To find more projects, please see the <a href='https://eh111eh.github.io/#/project'>Projects</a> page.
           </p>
 
           <p>
-          I love going for coffee — you can find some great spots in Edinburgh on my foodie account, <a href='https://www.instagram.com/tastes.of.edinburgh/'>@tastes.of.edinburgh</a>.
-          I'm also really into Economics.
-          Plus, a lot of people have asked about my github id, eh111eh. There’s no deep meaning behind it — it’s just
-          the postal code of the flat I lived when I first started using github.
+            Outside of research, I'm usually chasing good coffee — you can find some of my favourite Edinburgh spots on my foodie account, <a href='https://www.instagram.com/tastes.of.edinburgh/'>@tastes.of.edinburgh</a> — or working through a sudoku with a cup of it.
+            I'm also curious about economics, and yes, people keep asking about my GitHub id, eh111eh: no deep meaning, it's just the postal code of the flat I lived in when I first made the account.
           </p>
         </div>
 

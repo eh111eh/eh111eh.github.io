@@ -28,6 +28,9 @@ import GSoCmentor2 from './components/Posts/gsocmentor2'
 import Dynevalweek1 from './components/Posts/dynevalweek1'
 import Dynevalweek23 from './components/Posts/dynevalweek23'
 import GSoCmentor3 from './components/Posts/gsocmentor3'
+import ShpBiofilm from './components/Posts/shp_biofilm'
+import Orc from './components/Posts/orc'
+
 import './App.scss'
 
 function App() {
@@ -63,6 +66,8 @@ function App() {
           <Route path="/blog/dynevalweek1" element={<Dynevalweek1 />} />
           <Route path="/blog/dynevalweek23" element={<Dynevalweek23 />} />
           <Route path="/blog/gsocmentor3" element={<GSoCmentor3 />} />
+          <Route path="/blog/shp_biofilm" element={<ShpBiofilm />} />
+          <Route path="/blog/orc" element={<Orc />} />
         </Route>
       </Routes>
     </>

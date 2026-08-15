@@ -18,6 +18,8 @@ const Blog = () => {
   });
 
   const blogPosts = [
+    { title: 'Senior Honours Project Result: A3', date: '20 April 2026', link: '/blog/shp_biofilm', external: false },
+    { title: '3rd Place at the UK Undergraduate Operational Research Challenge', date: '15 February 2026', link: '/blog/orc', external: false },
     { title: 'GSoC Project Mentoring: System Modelling Proposal & WrappingSphere Deprecation Discussion', date: '1 July 2025', link: '/blog/gsocmentor3', external: false },
     { title: 'Dyneval Week 2 & 3', date: '1 July 2025', link: '/blog/dynevalweek23', external: false },
     { title: 'Dyneval Week 1', date: '16 June 2025', link: '/blog/dynevalweek1', external: false },

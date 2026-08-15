@@ -1,11 +1,15 @@
 .home-page {
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    max-height: none;
+    padding: 60px 20px;
+    box-sizing: border-box;
   }
 
   .me-image {
@@ -76,6 +80,7 @@
     letter-spacing: 3px;
     animation: fadeIn 1s 2.0s backwards;
     padding-bottom: 30px;
+    word-wrap: break-word;
   }
 
   .flat-button {
@@ -92,6 +97,8 @@
     text-align: center;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
+    background: none;
+    cursor: pointer;
 
     &:hover {
       background: #ff8400;
@@ -127,11 +134,7 @@
   }
 
   .home-page .text-zone {
-    position: initial;
-    width: 100%;
-    transform: none;
     padding: 10px;
-    box-sizing: border-box;
   }
 
   .home-page .flat-button {
@@ -159,5 +162,37 @@
     bottom: auto;
     left: 0;
     margin: auto;
+  }
+}
+
+.resume-dropdown {
+  position: relative;
+  display: inline-block;
+  clear: both;
+
+  .resume-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    background: #1a1a1a;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 10;
+    min-width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+    a {
+      display: block;
+      padding: 10px 16px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+    }
   }
 }
